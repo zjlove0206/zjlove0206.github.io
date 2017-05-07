@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    <title>VIM配置实战 | 每日一学 | 学而不思则罔，思而不学则殆</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="Vim,编辑器">
+    <meta name="description" content="VIM 是一个功能强大、高度可定制的文本编辑器。是V命令的升级版。VIM学习指南  VIM的管理插件&amp;amp;优缺点VIM的管理插件 ：pathogen(windows)、vim-addon-manager、vundle(linux最常用)、vimana  manager &amp;amp; vimana 优缺点   VIMRC配置&amp;quot;">
+<meta name="keywords" content="Vim,编辑器">
+<meta property="og:type" content="article">
+<meta property="og:title" content="VIM配置实战">
+<meta property="og:url" content="https://zjlove0206.github.io/2017/05/07/VIM配置实战/index.html">
+<meta property="og:site_name" content="每日一学">
+<meta property="og:description" content="VIM 是一个功能强大、高度可定制的文本编辑器。是V命令的升级版。VIM学习指南  VIM的管理插件&amp;amp;优缺点VIM的管理插件 ：pathogen(windows)、vim-addon-manager、vundle(linux最常用)、vimana  manager &amp;amp; vimana 优缺点   VIMRC配置&amp;quot;">
+<meta property="og:updated_time" content="2017-05-07T14:46:01.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="VIM配置实战">
+<meta name="twitter:description" content="VIM 是一个功能强大、高度可定制的文本编辑器。是V命令的升级版。VIM学习指南  VIM的管理插件&amp;amp;优缺点VIM的管理插件 ：pathogen(windows)、vim-addon-manager、vundle(linux最常用)、vimana  manager &amp;amp; vimana 优缺点   VIMRC配置&amp;quot;">
+    
+        <link rel="alternate" type="application/atom+xml" title="每日一学" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/avatar.jpg">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">Justin赵小贱</h5>
+          <a href="mailto:1349255792@qq.com" title="1349255792@qq.com" class="mail">1349255792@qq.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                主页
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                归档
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                标签
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-th-list"></i>
+                分类
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://github.com/zjlove0206" target="_blank" >
+                <i class="icon icon-lg icon-github"></i>
+                Github
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="http://weibo.com/zjlove0206" target="_blank" >
+                <i class="icon icon-lg icon-weibo"></i>
+                Weibo
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">VIM配置实战</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">VIM配置实战</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2017-05-07T08:05:10.000Z" itemprop="datePublished" class="page-time">
+  2017-05-07
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/基础应用/">基础应用</a></li></ul>
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#VIM的管理插件-amp-优缺点"><span class="post-toc-number">1.</span> <span class="post-toc-text">VIM的管理插件&优缺点</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#VIMRC配置"><span class="post-toc-number">2.</span> <span class="post-toc-text">VIMRC配置</span></a></li></ol>
+        </nav>
+    </aside>
+    
+<article id="post-VIM配置实战"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">VIM配置实战</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2017-05-07 16:05:10" datetime="2017-05-07T08:05:10.000Z"  itemprop="datePublished">2017-05-07</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/基础应用/">基础应用</a></li></ul>
+
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+            
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <p><strong>VIM</strong> 是一个<strong><em>功能强大</em></strong>、<strong><em>高度可定制</em></strong>的文本编辑器。是V命令的升级版。<a href="http://www.linuxidc.com/Linux/2013-08/89096.htm" target="_blank" rel="external">VIM学习指南</a></p>
+<hr>
+<h2 id="VIM的管理插件-amp-优缺点"><a href="#VIM的管理插件-amp-优缺点" class="headerlink" title="VIM的管理插件&amp;优缺点"></a>VIM的管理插件&amp;优缺点</h2><p><strong>VIM的管理插件</strong> ：<strong><em>pathogen(windows)、vim-addon-manager、vundle(linux最常用)、vimana</em></strong></p>
+<ul>
+<li><a href="http://yixf.name/2011/10/26/vim%E7%9A%84%E6%8F%92%E4%BB%B6%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/" target="_blank" rel="external">manager &amp; vimana 优缺点</a></li>
+</ul>
+<hr>
+<h2 id="VIMRC配置"><a href="#VIMRC配置" class="headerlink" title="VIMRC配置"></a>VIMRC配置</h2><pre><code>&quot;                             　　　＿＿＿
+&quot;                            彡　 _／ ⌒ ⌒      你说神马~
+&quot;                            　　/)) (●) (●) 　ヽ
+&quot;                            　 ｜∩　(_人_)　 |
+&quot;                            　 / ノ､＿ヽノ＿ノ￣)
+&quot;                            　/ /　　　　　 /ﾌ_/
+&quot;                            　L＿／＼　　　 ＼(
+&quot;
+&quot;                            你很帅，贱贱
+&quot; =====================
+&quot; Source: vimplus
+&quot; Vimrc:  个性化定会vim编辑神器
+&quot; Vundle: 插件管理工具
+&quot;       其他插件：pathogen(windows)、vim-addon-manager、vimana
+&quot; Set:    设置必要的配置 比如：字符集、tab缩进 
+&quot; Plugin: 根据各自喜好和用法进行定制
+&quot; ColorScheme: vim主题风格
+&quot; PhpDoc: 主要还是服务于PHP
+&quot; 常用快捷键
+&quot;----- F2   nerdtree
+&quot;----- F3   taglist
+&quot;----- F4   buffers管理 暂定
+&quot;----- F5   刷新项目信息 php: (刷新tags cocspe等) 
+&quot;----- F6   最近两个buffer切换
+
+&quot;================
+&quot;Set 基础设置
+&quot;    包括基础配置的开启等(语法、文件)
+&quot;================
+set nocompatible    &quot;vim工作不需要考虑vi的兼容 nocp 简写
+set nu              &quot;打开文件显示行号 也可不显示 nonu
+set ruler           &quot;在右下角显示光标的坐标
+set hlsearch        &quot;高亮显示搜索结果
+set incsearch       &quot;边输入边搜索(实时搜索)
+set showcmd         &quot;在ruler左边显示当前正在输入的命令
+set expandtab       &quot;将tab键改为空格，默认是8个
+set tabstop=4       &quot;将tab键改为4个空格
+set shiftwidth=4    &quot;自动缩进时，使用4个空格，默认是8个
+set cindent         &quot;c/c++自动缩进
+set mouse=          &quot;设置鼠标滚轮非自然滚动
+set fdm=indent      &quot;代码折叠
+set ic              &quot;忽略大小写查找
+set nofoldenable    &quot;禁用vim折叠功能
+set showmatch       &quot;自动匹配括号
+set backspace=indent,eol,start &quot;设置退格删除功能
+
+map 9 $             &quot;通过9跳转到行末尾, 0默认跳转到行首
+map &lt;silent&gt;  &lt;C-A&gt;  gg v G  &quot;Ctrl-A 选中所有内容
+
+syntax on           &quot;自动语法高亮 enable 也可以，on可以覆盖当前对语法高亮的修改
+filetype on         &quot;启动文件类型检查
+filetype plugin on  &quot;运行vim加载文件类型插件
+filetype indent on  &quot;启动文件自动缩进
+
+&quot;=================
+&quot;Plugin 插件引入
+&quot;       Vundle 插件管理 Plugin &amp; Bundle 均可
+&quot;       引入管理文件目录 vim/bundle/插件/doc/插件.txt 为插件的具体用法
+&quot;================
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin &apos;VundleVim/Vundle.vim&apos;           &quot;插件管理
+Plugin &apos;chxuan/change-colorscheme&apos;      &quot;颜色主题 F9 F10 切换主题
+Plugin &apos;jiangmiao/auto-pairs&apos;           &quot;括号补全
+Plugin &apos;scrooloose/nerdcommenter&apos;       &quot;快速注释
+Plugin &apos;scrooloose/nerdtree&apos;            &quot;树形目录树
+Plugin &apos;Valloric/YouCompleteMe&apos;         &quot;自动补全 Google工程师主研 neocomplete 这一款体验一般 日本货 
+Plugin &apos;godlygeek/tabular&apos;              &quot;代码检测&amp;格式化&amp;对齐  ale 支持vim8.0 还有一个韩国牌子
+Plugin &apos;ctrlpvim/ctrlp.vim&apos;             &quot;快速查找文件
+Plugin &apos;vim-airline/vim-airline&apos;        &quot;装逼利器 各种导航线设置 负担会让vim略显卡顿
+Plugin &apos;vim-airline/vim-airline-themes&apos; &quot;airline 主题
+Plugin &apos;will133/vim-dirdiff&apos;            &quot;文件差异比对
+Plugin &apos;haya14busa/incsearch.vim&apos;       &quot;极速跳转 据说是个日本卡哇伊搞得 sneak&amp;easymotion 都可以搞搞
+Plugin &apos;mhinz/vim-startify&apos;             &quot;显示最近使用的文件列表
+Plugin &apos;Xuyuanp/nerdtree-git-plugin&apos;    &quot;git 目录树更改
+Plugin &apos;Yggdroot/indentLine&apos;            &quot;代码缩进
+Plugin &apos;tpope/vim-surround&apos;             &quot;方便的在字符两边插入各种符号 xml
+Plugin &apos;tpope/vim-commentary&apos;           &quot;注释代码行 gcc gc 注释 gcu gcgc 撤销注释
+Plugin &apos;shawncplus/phpcomplete.vim&apos;     &quot;php插件
+Plugin &apos;vim-scripts/pdv-standalone&apos;     &quot;PHP文档注释
+Plugin &apos;vim-scripts/progressbar-widget&apos;
+
+&quot;Plugin &apos;L9&apos;                              &quot;VIM脚本库
+&quot;Plugin &apos;tpope/vim-fugitive&apos;            &quot;处理git merge 冲突 dv
+&quot;Plugin &apos;tpope/vim-repeat&apos;              &quot;重复执行命令
+&quot;Plugin &apos;tpope/vim-endwise&apos;             &quot;自动结束某些结构
+&quot;Plugin &apos;vim-scripts/a.vim&apos;             &quot;头文件&amp;实现文件快速切换
+&quot;Plugin &apos;vim-scripts/DoxygenToolkit.vim&apos; &quot;快速注释
+&quot;Plugin &apos;vim-scripts/SQLComplete.vim&apos;    &quot;SQL补全
+
+&quot;html &amp; css &amp; js{}
+&quot;Plugin &apos;Valloric/MatchTagAlways&apos;       &quot;自动匹配html标签，支持在标签间跳转
+&quot;Plugin &apos;docunext/closetag.vim&apos;         &quot;自动闭合HTML标签
+&quot;Plugin &apos;gorodinskiy/vim-coloresque&apos;    &quot;正则语法高亮  主要针对css\sass\less
+&quot;Plugin &apos;othree/yajs.vim&apos;               &quot;js语法高亮
+&quot;Plugin &apos;othree/javascript-libraries-syntax.vim&apos;
+&quot;Plugin &apos;rstacruz/sparkup&apos;, {&apos;rtp&apos;: &apos;vim/&apos;}
+
+&quot;tag tab 结构
+&quot;Plugin &apos;vim-scripts/taglist.vim&apos;       &quot;taglist 标记列表 代码结构概览
+Plugin &apos;majutsushi/tagbar&apos;             &quot;标签结构
+
+call vundle#end()            
+filetype plugin indent on    
+
+&quot;===============
+&quot;多窗口操作 mac Command
+&quot;===============
+map + &lt;C-W&gt;+          &quot;+：扩大窗口
+map - &lt;C-W&gt;-          &quot;- :   缩小窗口
+map &lt;C-l&gt; &lt;C-W&gt;l      &quot;C-l 移动到右侧窗口
+map &lt;C-h&gt; &lt;C-W&gt;h      &quot;C-h 移动到左侧窗口
+map &lt;C-j&gt; &lt;C-W&gt;j      &quot;C-j 移动到下方窗口
+map &lt;C-k&gt; &lt;C-W&gt;k      &quot;C-k 移动到上方窗口
+
+&quot;===============
+&quot;不要交换文件和备份文件，减少冲突
+&quot;===============
+set noswapfile
+set nobackup
+set nowritebackup
+
+&quot;===============
+&quot;改变主题 &amp; 打开关闭目录树 &amp; 设置默认主题 Jellybeans
+&quot;===============
+map &lt;F10&gt; :NextColorScheme&lt;CR&gt;
+imap &lt;F10&gt; &lt;ESC&gt; :NextColorScheme&lt;CR&gt;
+map &lt;F9&gt; :PreviousColorScheme&lt;CR&gt;
+imap &lt;F9&gt; &lt;ESC&gt; :PreviousColorScheme&lt;CR&gt;
+
+map &lt;F2&gt; :NERDTreeToggle&lt;CR&gt;
+imap &lt;F2&gt; &lt;ESC&gt; :NERDTreeToggle&lt;CR&gt;
+&quot;autocmd vimenter * NERDTree  &quot;是否自动打开目录树
+
+set background=dark
+let g:solarized_termcolors=256
+colorscheme jellybeans 
+
+&quot;===============
+&quot;taglist 配置信息
+&quot;===============
+nmap &lt;F3&gt; &lt;ESC&gt;:TagbarToggle&lt;RETURN&gt;
+set tags=tags
+set autochdir
+let g:tagbar_left = 0
+let g:tagbar_width = 24
+let g:tagbar_autoclose = 1
+let g:tagbar_autofocus = 1
+let g:tagbar_sort = 1
+
+&quot;===============
+&quot;代码缩进 标志线 默认为¦ Ctrl+i 控制显示 
+&quot;===============
+let g:indentLine_char = &apos;¦&apos; 
+&quot;let g:indentLine_color_term = 239 
+map &lt;C-i&gt; :IndentLinesToggle&lt;CR&gt; 
+
+&quot;================
+&quot;PHP定制内容以及php-doc 自动补全 ctrl+x ctrl+o
+&quot;================
+autocmd FileType php noremap &lt;C-L&gt; :!php -l %&lt;CR&gt; &quot;语法检查
+autocmd FileType php set omnifunc=phpcomplete#CompletePHP
+
+nnoremap &lt;C-K&gt; :call PhpDoc()&lt;CR&gt;
+vnoremap &lt;C-K&gt; :call PhpDocRange()&lt;CR&gt;
+let g:pdv_cfg_Uses = &apos;1&apos;
+let g:pdv_cfg_Package = &apos;package&apos;
+let g:pdv_cfg_Version = &apos;$Id$&apos;
+let g:pdv_cfg_Author = &apos;zhaojian &lt;zhaojian@moxiu.net&gt;&apos;
+let g:pdv_cfg_Copyright = &apos; 2012-2016 moxiu.com&apos;
+let g:pdv_cfg_License = &apos;魔秀科技(北京)有限公司 (https://moxiu.net/pm/projects/mx-dev/wiki/源代码管理规范)&apos;
+
+&quot; ctags
+&quot;set tags+=/usr/include/tags
+&quot;set tags+=~/.vim/systags
+&quot;set tags+=~/.vim/x86_64-linux-gnu-systags
+&quot;let g:ycm_collect_identifiers_from_tags_files = 1
+&quot;let g:ycm_semantic_triggers = {} 
+&quot;let g:ycm_semantic_triggers.c = [&apos;-&gt;&apos;, &apos;.&apos;, &apos; &apos;, &apos;(&apos;, &apos;[&apos;, &apos;&amp;&apos;,&apos;]&apos;]
+
+&quot; cpp_class_scope_highlight
+let g:cpp_class_scope_highlight = 1
+let g:cpp_experimental_template_highlight = 1
+let c_no_curly_error = 1
+
+&quot;================
+&quot;airline配置 切换不同的buffer缓冲区
+&quot;================
+set encoding=utf-8
+let g:airline_theme=&quot;molokai&quot;
+let g:airline_powerline_fonts = 1
+&quot;let g:airline#extensions#tabline#enabled = 1
+if !exists(&apos;g:airline_symbols&apos;)
+    let g:airline_symbols = {}
+endif
+let g:airline_left_sep = &apos;⮀&apos; 
+let g:airline_left_alt_sep = &apos;⮁&apos; 
+let g:airline_right_sep = &apos;⮂&apos; 
+let g:airline_right_alt_sep = &apos;⮃&apos; 
+let g:airline_symbols.branch = &apos;⭠&apos; 
+let g:airline_symbols.readonly = &apos;⭤&apos; 
+let g:airline_symbols.linenr = &apos;⭡&apos; 
+&quot;let g:airline_symbols.spell = &apos;Ꞩ&apos;
+&quot;let g:airline_symbols.notexists = &apos;∄&apos;
+&quot;let g:airline_symbols.whitespace = &apos;Ξ&apos;
+nnoremap &lt;C-N&gt; :bn&lt;CR&gt;
+nnoremap &lt;C-P&gt; :bp&lt;CR&gt;
+nmap &lt;F6&gt; &lt;ESC&gt;:w&lt;RETURN&gt;:b#&lt;RETURN&gt;
+
+&quot; ctrlp
+let g:ctrlp_map = &apos;&lt;c-f&gt;&apos;
+let g:ctrlp_cmd = &apos;:CtrlP&apos;
+let g:ctrlp_working_path_mode = &apos;0&apos;
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip     &quot; MacOSX/Linux
+
+&quot; incsearch.vim
+map /  &lt;Plug&gt;(incsearch-forward)
+map ?  &lt;Plug&gt;(incsearch-backward)
+map g/ &lt;Plug&gt;(incsearch-stay)
+
+&quot;===============
+&quot;简易的跨服务器复制粘贴
+&quot;===============
+vmap &lt;silent&gt; &lt;leader&gt;y &lt;ESC&gt;:&apos;&lt;,&apos;&gt;w! !curl --data-binary @- -X POST http://moxiu.net/clipboard.php&lt;RETURN&gt;&lt;RETURN&gt;
+nmap &lt;silent&gt; &lt;leader&gt;p &lt;ESC&gt;:r !curl -s http://moxiu.net/clipboard.php&lt;RETURN&gt;
+
+nmap &lt;M-K&gt; &lt;ESC&gt;:!php %:p&lt;CR&gt;
+
+set cursorline
+&quot;hi CursorLine  cterm=NONE   ctermbg=darkred ctermfg=white
+hi CursorLine  cterm=NONE    guibg=#006699 ctermfg=white
+hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white
+hi CursorLineNr          cterm=NONE      ctermfg=102  ctermbg=237  gui=NONE    guifg=#878787 guibg=#3a3a3a
+
+
+&quot;YouCompleteMe 搞得鬼 插件目录下 运行 ./install.py 进行安装
+&quot;let g:ycm_path_to_python_interpreter = &apos;/usr/bin/python2.7&apos;
+&quot;let g:ycm_server_use_vim_stdout = 1 
+&quot;let g:ycm_server_log_level = &apos;debug&apos;
+</code></pre>
+        </div>
+
+        <blockquote class="post-copyright">
+    <div class="content">
+        
+<span class="post-time">
+    最后更新时间：<time datetime="2017-05-07T14:46:01.000Z" itemprop="dateUpdated">2017-05-07 22:46:01</time>
+</span><br>
+
+
+        
+        这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="/2017/05/07/VIM配置实战/" target="_blank" rel="external">https://zjlove0206.github.io/2017/05/07/VIM配置实战/</a>
+        
+    </div>
+    <footer>
+        <a href="https://zjlove0206.github.io">
+            <img src="/img/avatar.jpg" alt="Justin赵小贱">
+            Justin赵小贱
+        </a>
+    </footer>
+</blockquote>
+
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Vim/">Vim</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/编辑器/">编辑器</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://zjlove0206.github.io/2017/05/07/VIM配置实战/&title=《VIM配置实战》 — 每日一学&pic=https://zjlove0206.github.io/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://zjlove0206.github.io/2017/05/07/VIM配置实战/&title=《VIM配置实战》 — 每日一学&source=后端程序狗" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://zjlove0206.github.io/2017/05/07/VIM配置实战/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《VIM配置实战》 — 每日一学&url=https://zjlove0206.github.io/2017/05/07/VIM配置实战/&via=https://zjlove0206.github.io" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://zjlove0206.github.io/2017/05/07/VIM配置实战/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between">
+  
+    <div class="waves-block waves-effect prev">
+      <a href="/2017/05/07/Tmux安装与使用/" id="post-prev" class="post-nav-link">
+        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
+        <h4 class="title">Tmux安装与使用</h4>
+      </a>
+    </div>
+  
+
+  
+</nav>
+
+
+
+    
+
+
+
+
+
+
+
+<section class="comments" id="comments">
+    <!-- UY BEGIN -->
+    <div id="uyan_frame"></div>
+    <script src="http://v2.uyan.cc/code/uyan.js?uid=2132978"></script>
+    <!-- UY END -->
+</section>
+
+
+
+
+
+
+
+
+
+
+</article>
+
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        谢谢大爷~
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <ul class="reward-items">
+        
+        <li>
+            <img src="/img/wechat.jpg" title="微信打赏二维码" alt="微信打赏二维码">
+            <p>微信</p>
+        </li>
+        
+
+        
+        <li>
+            <img src="/img/alipay.jpg" title="支付宝打赏二维码" alt="支付宝打赏二维码">
+            <p>支付宝</p>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        站点总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        站点总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>博客内容遵循<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享 署名 - 非商业性 - 相同方式共享 4.0 国际协议</a></span>
+        </p>
+    </div>
+    <div class="bottom">
+        <p>
+            <span>Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a></span>
+            <span>Justin赵小贱 &copy; 2017</span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://zjlove0206.github.io/2017/05/07/VIM配置实战/&title=《VIM配置实战》 — 每日一学&pic=https://zjlove0206.github.io/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://zjlove0206.github.io/2017/05/07/VIM配置实战/&title=《VIM配置实战》 — 每日一学&source=后端程序狗" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://zjlove0206.github.io/2017/05/07/VIM配置实战/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《VIM配置实战》 — 每日一学&url=https://zjlove0206.github.io/2017/05/07/VIM配置实战/&via=https://zjlove0206.github.io" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://zjlove0206.github.io/2017/05/07/VIM配置实战/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACNklEQVR42u3ay26sQAxF0f7/nyZSlEGkNJV9bIiCazNqoVyoxcDXr9cLX8fndfb7+52f98/+hj/tskuGDBmPZRzLa81YP2190DWen02GDBn7MDqhMMWvPwr5ZDJkyJDB08FagF5/IBkyZMjoB9z0fu1pMmTIkFErYkkY5c9Zl7I31uIyZMh4IKM/GLjv95/ON2TIkPEvGUd4kbFlmhp2zvP1BBkyZIxmkHZYpwFHBpzpQOL038qQIWMooxby+PCSH5eH8jd3ZMiQsRmDl5G1sWW/ZYaSQhkyZAxi8JKy1hRLS9/acoYMGTJmM/hB+62xdOWLN/VkyJAxm8ETPp7SpZ+Gv5G3BWXIkDGJwUeM/Oi1dbE0pL6ZxMqQIWMoIw18pOl/7Scg/w3IkCFjBwZfsyBHrA0y05JVhgwZezL4IgUfTNaQvM0Xb3DIkCHjsQxeTNba9DzdbA1EZciQsSUjLUHvWNS4IKuVIUPGwxm19lZtwauWaKJQLkOGjNEMXpTyxS8ejtMAHYRsGTJkDGKkCVx/SeLat8iQIWMfBv/NQ2GnDRenjDJkyBjN6Lw4TQHTtDJt8MmQIWMqo1ampkdJjxsvismQIWM0Iw1zJFlMB5/8oLUVDRkyZMxg8CDLFyzSlTKOLCaIMmTIGMFI22H8ZTVMPHiQIUOGDBB8a8VwmgL+0jWUIUOGjBsWJkjzDj1fhgwZGzDSYQAfcJKj8zQRTWJlyJAxjpEWkDxxTF/fGRLIkCFjKOMDA8xBz4cDPo0AAAAASUVORK5CYII=" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+
+
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+<script>
+(function() {
+    var OriginTitile = document.title, titleTime;
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+            document.title = '磨磨唧唧干啥呢';
+            clearTimeout(titleTime);
+        } else {
+            document.title = '(つェ⊂)咦!又好了!';
+            titleTime = setTimeout(function() {
+                document.title = OriginTitile;
+            },2000);
+        }
+    });
+})();
+</script>
+
+
+
+</body>
+</html>
