@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>https://zjlove0206.github.io/2017/05/07/VIM%E9%85%8D%E7%BD%AE%E5%AE%9E%E6%88%98/</loc>
+    <lastmod>2017-05-12T03:39:10.000Z</lastmod>
+    <data>
+        <display>
+        <title>VIM配置实战</title>
+        <pubTime>2017-05-07T08:05:10.000Z</pubTime>
+        
+        <tag>Vim</tag>
+         
+        <tag>编辑器</tag>
+         
+         
+           
+             
+              <breadCrumb title="基础应用" url="https://zjlove0206.github.io/categories/%E5%9F%BA%E7%A1%80%E5%BA%94%E7%94%A8/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://zjlove0206.github.io/2017/05/07/AdminLte%E5%90%8E%E5%8F%B0UI%E6%A1%86%E6%9E%B6/</loc>
     <lastmod>2017-05-11T13:41:08.000Z</lastmod>
     <data>
@@ -78,28 +100,6 @@
         <tag>Screen</tag>
          
         <tag>终端</tag>
-         
-         
-           
-             
-              <breadCrumb title="基础应用" url="https://zjlove0206.github.io/categories/%E5%9F%BA%E7%A1%80%E5%BA%94%E7%94%A8/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://zjlove0206.github.io/2017/05/07/VIM%E9%85%8D%E7%BD%AE%E5%AE%9E%E6%88%98/</loc>
-    <lastmod>2017-05-07T14:46:01.000Z</lastmod>
-    <data>
-        <display>
-        <title>VIM配置实战</title>
-        <pubTime>2017-05-07T08:05:10.000Z</pubTime>
-        
-        <tag>Vim</tag>
-         
-        <tag>编辑器</tag>
          
          
            
