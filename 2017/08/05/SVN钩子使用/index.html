@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    <title>SVN钩子使用 | 每日一学 | 学而不思则罔，思而不学则殆</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="svn,钩子">
+    <meta name="description" content="简介SVN钩子 就是被版本库事件触发的程序或脚本，例如新修订版本的创建，或是未版本化属性的修改。每个钩子都会被告知足够多的信息，包括那是什么事件，所操作的对象，和触发事件的用户名。通过钩子的输出或返回状态，钩子程序能让工作继续、停止或是以某种方式挂起。通常在版本库里的hooks目录里 钩子类型常用类型start-commit.tmpl    维度 解释     作用 提交事务产生前已运行，通常用来">
+<meta name="keywords" content="svn,钩子">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SVN钩子使用">
+<meta property="og:url" content="https://zjlove0206.github.io/2017/08/05/SVN钩子使用/index.html">
+<meta property="og:site_name" content="每日一学">
+<meta property="og:description" content="简介SVN钩子 就是被版本库事件触发的程序或脚本，例如新修订版本的创建，或是未版本化属性的修改。每个钩子都会被告知足够多的信息，包括那是什么事件，所操作的对象，和触发事件的用户名。通过钩子的输出或返回状态，钩子程序能让工作继续、停止或是以某种方式挂起。通常在版本库里的hooks目录里 钩子类型常用类型start-commit.tmpl    维度 解释     作用 提交事务产生前已运行，通常用来">
+<meta property="og:updated_time" content="2017-08-05T03:30:55.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="SVN钩子使用">
+<meta name="twitter:description" content="简介SVN钩子 就是被版本库事件触发的程序或脚本，例如新修订版本的创建，或是未版本化属性的修改。每个钩子都会被告知足够多的信息，包括那是什么事件，所操作的对象，和触发事件的用户名。通过钩子的输出或返回状态，钩子程序能让工作继续、停止或是以某种方式挂起。通常在版本库里的hooks目录里 钩子类型常用类型start-commit.tmpl    维度 解释     作用 提交事务产生前已运行，通常用来">
+    
+        <link rel="alternate" type="application/atom+xml" title="每日一学" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/avatar.jpg">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">Justin赵小贱</h5>
+          <a href="mailto:1349255792@qq.com" title="1349255792@qq.com" class="mail">1349255792@qq.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                主页
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                归档
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                标签
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-th-list"></i>
+                分类
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://github.com/zjlove0206" target="_blank" >
+                <i class="icon icon-lg icon-github"></i>
+                Github
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="http://weibo.com/zjlove0206" target="_blank" >
+                <i class="icon icon-lg icon-weibo"></i>
+                Weibo
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">SVN钩子使用</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">SVN钩子使用</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2017-08-05T03:28:52.000Z" itemprop="datePublished" class="page-time">
+  2017-08-05
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/svn/">svn</a></li></ul>
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#简介"><span class="post-toc-number">1.</span> <span class="post-toc-text">简介</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#钩子类型"><span class="post-toc-number">2.</span> <span class="post-toc-text">钩子类型</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#常用类型"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">常用类型</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#待考究类型"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">待考究类型</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#实际使用"><span class="post-toc-number">3.</span> <span class="post-toc-text">实际使用</span></a></li></ol>
+        </nav>
+    </aside>
+    
+<article id="post-SVN钩子使用"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">SVN钩子使用</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2017-08-05 11:28:52" datetime="2017-08-05T03:28:52.000Z"  itemprop="datePublished">2017-08-05</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/svn/">svn</a></li></ul>
+
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+            
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p><strong>SVN钩子</strong> 就是被版本库事件触发的程序或脚本，例如新修订版本的创建，或是未版本化属性的修改。每个钩子都会被告知足够多的信息，包括那是什么事件，所操作的对象，和触发事件的用户名。通过钩子的输出或返回状态，钩子程序能让工作继续、停止或是以某种方式挂起。通常在版本库里的<strong><em>hooks目录</em></strong>里</p>
+<h2 id="钩子类型"><a href="#钩子类型" class="headerlink" title="钩子类型"></a>钩子类型</h2><h3 id="常用类型"><a href="#常用类型" class="headerlink" title="常用类型"></a>常用类型</h3><p><strong>start-commit.tmpl</strong></p>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>作用</td>
+<td>提交事务产生前已运行，通常用来判定一个用户是否有权提交</td>
+</tr>
+<tr>
+<td>参数</td>
+<td>版本库的路径 &amp; 提交的用户名</td>
+</tr>
+<tr>
+<td>返回值</td>
+<td>非零值 事务将宣布失败。亦可定义stderr，显示到客户端</td>
+</tr>
+</tbody>
+</table>
+<p><strong>pre-commit.tmpl</strong></p>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>作用</td>
+<td>事务完成提交之前运行，通常这个钩子是用来保护因为内容或位置</td>
+</tr>
+<tr>
+<td></td>
+<td>通常用来判断是否有提交注释或者一些规范类事件</td>
+</tr>
+<tr>
+<td>参数</td>
+<td>版本库的路径 &amp; 提交的事务名称</td>
+</tr>
+<tr>
+<td>返回值</td>
+<td>非零值 事务将宣布失败，事务也会被删除。亦可定义stderr，显示到客户端</td>
+</tr>
+</tbody>
+</table>
+<p><strong>post-commit.tmpl</strong></p>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>作用</td>
+<td>事务完成后运行，创建一个新的修订版本</td>
+</tr>
+<tr>
+<td></td>
+<td>通常用这个钩子来发送关于提交的描述性电子邮件，或者作为版本库的备份</td>
+</tr>
+<tr>
+<td>参数</td>
+<td>版本库的路径 &amp; 被创建的新的修订版本号</td>
+</tr>
+<tr>
+<td>返回值</td>
+<td>可定义stderr，显示到客户端   如：发送邮件失败~</td>
+</tr>
+</tbody>
+</table>
+<h3 id="待考究类型"><a href="#待考究类型" class="headerlink" title="待考究类型"></a>待考究类型</h3><table>
+<thead>
+<tr>
+<th>类型</th>
+<th>触发时机</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pre-lock.tmpl</td>
+<td>对文件进行加锁操作之前执行该脚本</td>
+</tr>
+<tr>
+<td>pre-revprop-change.tmpl</td>
+<td>在修改 revision 属性之前，执行该脚本</td>
+</tr>
+<tr>
+<td>pre-unlock.tmpl</td>
+<td>对文件进行解锁操作之前执行该脚本</td>
+</tr>
+<tr>
+<td>post-lock.tmpl</td>
+<td>对文件进行加锁操作之后执行该脚本</td>
+</tr>
+<tr>
+<td>post-revprop-change.tmpl</td>
+<td>在修改 revision 属性之后，执行该脚本</td>
+</tr>
+<tr>
+<td>post-unlock.tmpl</td>
+<td>对文件进行解锁操作之后执行该脚本</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="实际使用"><a href="#实际使用" class="headerlink" title="实际使用"></a>实际使用</h2><p><strong>建立钩子脚本</strong></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line">a 、将tmpl文件修改成可执行的shell脚本</div><div class="line"></div><div class="line">	mv pre-commit.tmpl pre-commit</div><div class="line">	chmod a+x pre-commit</div><div class="line"></div><div class="line">b、开始编写shell （以PHP shell 为例）</div><div class="line"></div><div class="line">	#!/bin/env php</div><div class="line">	&lt;?php</div><div class="line">	# 设置环境变量 保证utf-8输出</div><div class="line">	putenv("LANG=en_US");</div><div class="line">	putenv("LC_ALL=en_US.UTF-8");</div><div class="line"></div><div class="line">	# 获取全局参数 提交过程中的钩子 适用于格式判断</div><div class="line">	$info = var_export($argv, true);</div><div class="line"></div><div class="line">	# 获取传递参数</div><div class="line">	$HOOKS = $argv[0]; // svn 的pre-commit 目录地址</div><div class="line">	$REPOS = $argv[1]; // 仓库地址</div><div class="line">	$TXN   = $argv[2]; // Transaction Name 事务ID，此次进程的唯一标示</div><div class="line"></div><div class="line">	# 获取提交日志的信息</div><div class="line">	$cmd = "svnlook log -t $TXN $REPOS";</div><div class="line">	$logData = shell_exec($cmd);</div><div class="line"></div><div class="line">	# preg: 检查注释必须5个字符一样</div><div class="line">	if (mb_strlen($logData) &lt; 10) &#123;</div><div class="line">		error_log("必须10个字符以上的注释哦~");</div><div class="line">		exit(1);</div><div class="line">	&#125;</div></pre></td></tr></table></figure>
+<p><strong>一些技巧</strong></p>
+<ul>
+<li><p>1、设置全局的字符编码，保证UTF-8字符输出。2种做法</p>
+<p>   a、putenv(“LANG=en_US”);<br>   b、 $cmd = “env lang en_US svnlook log -t $TXN $REPOS”;</p>
+</li>
+<li><p>2、svnlook 命令的<a href="http://www.cnblogs.com/wangjiyuan/p/svnnn.html" target="_blank" rel="external">详解</a></p>
+</li>
+<li>3、正则用法来匹配请求是否符合规范</li>
+</ul>
+<p><strong>未解之谜</strong></p>
+<ul>
+<li>1、error_log 客户端显示中文？？</li>
+<li>2、多版本库 如何简化钩子的使用？？</li>
+</ul>
+
+        </div>
+
+        <blockquote class="post-copyright">
+    <div class="content">
+        
+<span class="post-time">
+    最后更新时间：<time datetime="2017-08-05T03:30:55.000Z" itemprop="dateUpdated">2017-08-05 11:30:55</time>
+</span><br>
+
+
+        
+        这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="/2017/08/05/SVN钩子使用/" target="_blank" rel="external">https://zjlove0206.github.io/2017/08/05/SVN钩子使用/</a>
+        
+    </div>
+    <footer>
+        <a href="https://zjlove0206.github.io">
+            <img src="/img/avatar.jpg" alt="Justin赵小贱">
+            Justin赵小贱
+        </a>
+    </footer>
+</blockquote>
+
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/svn/">svn</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/钩子/">钩子</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://zjlove0206.github.io/2017/08/05/SVN钩子使用/&title=《SVN钩子使用》 — 每日一学&pic=https://zjlove0206.github.io/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://zjlove0206.github.io/2017/08/05/SVN钩子使用/&title=《SVN钩子使用》 — 每日一学&source=后端程序狗" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://zjlove0206.github.io/2017/08/05/SVN钩子使用/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《SVN钩子使用》 — 每日一学&url=https://zjlove0206.github.io/2017/08/05/SVN钩子使用/&via=https://zjlove0206.github.io" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://zjlove0206.github.io/2017/08/05/SVN钩子使用/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/2017/05/07/AdminLte后台UI框架/" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">AdminLte后台UI框架</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+
+
+
+
+
+<section class="comments" id="comments">
+    <!-- UY BEGIN -->
+    <div id="uyan_frame"></div>
+    <script src="http://v2.uyan.cc/code/uyan.js?uid=2132978"></script>
+    <!-- UY END -->
+</section>
+
+
+
+
+
+
+
+
+
+
+</article>
+
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        谢谢大爷~
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <ul class="reward-items">
+        
+        <li>
+            <img src="/img/wechat.jpg" title="微信打赏二维码" alt="微信打赏二维码">
+            <p>微信</p>
+        </li>
+        
+
+        
+        <li>
+            <img src="/img/alipay.jpg" title="支付宝打赏二维码" alt="支付宝打赏二维码">
+            <p>支付宝</p>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        站点总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        站点总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>博客内容遵循<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享 署名 - 非商业性 - 相同方式共享 4.0 国际协议</a></span>
+        </p>
+    </div>
+    <div class="bottom">
+        <p>
+            <span>Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a></span>
+            <span>Justin赵小贱 &copy; 2017</span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://zjlove0206.github.io/2017/08/05/SVN钩子使用/&title=《SVN钩子使用》 — 每日一学&pic=https://zjlove0206.github.io/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://zjlove0206.github.io/2017/08/05/SVN钩子使用/&title=《SVN钩子使用》 — 每日一学&source=后端程序狗" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://zjlove0206.github.io/2017/08/05/SVN钩子使用/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《SVN钩子使用》 — 每日一学&url=https://zjlove0206.github.io/2017/08/05/SVN钩子使用/&via=https://zjlove0206.github.io" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://zjlove0206.github.io/2017/08/05/SVN钩子使用/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACKUlEQVR42u3awW7sIAwF0P7/T6fS09tVYa7ttFLgsBp1UuBk4TE2X1/xuP6Nu7///Pa6GeuZ108+MDAwMF7LuJZjzUhg640m30YvBQMD4wDGJBRW8euX0pwBAwMDo/jM+n+vYGBgYGBMAm6y5CRAY2BgYEwOsTlsQv31szgGBsYLGdXGwF9+/sX+BgYGxksYk6D5bAOgt5//M2BgYGzNWJfDqmE3v1pRbQxE4RgDA2NrRi/k5YWzvGSWHGsjDAYGxkaMPPD1rn/lr6l3YsXAwDiNUQ2jvSJdHkwLB2AMDIxjGNXCfd7U7F01K8yAgYGxNWNelM/DZdIGqF6wwMDAOIGRT53nYNXt5knh7ZMYGBhbM/Ll81BYLcP1No2BgXEao3oNYnJV4qkjKwYGxsmM+TWvanithuAPrwYDA2M7Ri8VS5K5eSOzMA8GBsbWjHJJKw7N1UA8OrhiYGAcwJgU8edtg97qH14HBgbGdoxqIpgcaychO5knqhdiYGBswehtKEn4ogQuXuXDbwUGBsYBjHngK8f4FvV2ZgwMjK0ZTy38bGGuWobDwMDYm3EVxzoIVpHV8HqbgGJgYGzNyEde0K8+n2+0d9UDAwNjD0bvqkQSgvPEMUc2E0QMDIwtGNWS/RzfSxmj9gAGBsbBjLvnJ8jHmg0YGBgYcSI4v8aRzDZKDTEwMF7L6AXHeUmu2s6MOrEYGBjbMXqNgTxxzHsRyTF4hMHAwHgf4xss6vAuIJ48EQAAAABJRU5ErkJggg==" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+
+
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+<script>
+(function() {
+    var OriginTitile = document.title, titleTime;
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+            document.title = '磨磨唧唧干啥呢';
+            clearTimeout(titleTime);
+        } else {
+            document.title = '(つェ⊂)咦!又好了!';
+            titleTime = setTimeout(function() {
+                document.title = OriginTitile;
+            },2000);
+        }
+    });
+})();
+</script>
+
+
+
+</body>
+</html>

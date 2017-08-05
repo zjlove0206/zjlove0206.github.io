@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zjlove0206.github.io/"/>
-  <updated>2017-05-11T13:41:08.000Z</updated>
+  <updated>2017-08-05T03:30:55.000Z</updated>
   <id>https://zjlove0206.github.io/</id>
   
   <author>
@@ -14,6 +14,159 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SVN钩子使用</title>
+    <link href="https://zjlove0206.github.io/2017/08/05/SVN%E9%92%A9%E5%AD%90%E4%BD%BF%E7%94%A8/"/>
+    <id>https://zjlove0206.github.io/2017/08/05/SVN钩子使用/</id>
+    <published>2017-08-05T03:28:52.000Z</published>
+    <updated>2017-08-05T03:30:55.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p><strong>SVN钩子</strong> 就是被版本库事件触发的程序或脚本，例如新修订版本的创建，或是未版本化属性的修改。每个钩子都会被告知足够多的信息，包括那是什么事件，所操作的对象，和触发事件的用户名。通过钩子的输出或返回状态，钩子程序能让工作继续、停止或是以某种方式挂起。通常在版本库里的<strong><em>hooks目录</em></strong>里</p>
+<h2 id="钩子类型"><a href="#钩子类型" class="headerlink" title="钩子类型"></a>钩子类型</h2><h3 id="常用类型"><a href="#常用类型" class="headerlink" title="常用类型"></a>常用类型</h3><p><strong>start-commit.tmpl</strong></p>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>作用</td>
+<td>提交事务产生前已运行，通常用来判定一个用户是否有权提交</td>
+</tr>
+<tr>
+<td>参数</td>
+<td>版本库的路径 &amp; 提交的用户名</td>
+</tr>
+<tr>
+<td>返回值</td>
+<td>非零值 事务将宣布失败。亦可定义stderr，显示到客户端</td>
+</tr>
+</tbody>
+</table>
+<p><strong>pre-commit.tmpl</strong></p>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>作用</td>
+<td>事务完成提交之前运行，通常这个钩子是用来保护因为内容或位置</td>
+</tr>
+<tr>
+<td></td>
+<td>通常用来判断是否有提交注释或者一些规范类事件</td>
+</tr>
+<tr>
+<td>参数</td>
+<td>版本库的路径 &amp; 提交的事务名称</td>
+</tr>
+<tr>
+<td>返回值</td>
+<td>非零值 事务将宣布失败，事务也会被删除。亦可定义stderr，显示到客户端</td>
+</tr>
+</tbody>
+</table>
+<p><strong>post-commit.tmpl</strong></p>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>作用</td>
+<td>事务完成后运行，创建一个新的修订版本</td>
+</tr>
+<tr>
+<td></td>
+<td>通常用这个钩子来发送关于提交的描述性电子邮件，或者作为版本库的备份</td>
+</tr>
+<tr>
+<td>参数</td>
+<td>版本库的路径 &amp; 被创建的新的修订版本号</td>
+</tr>
+<tr>
+<td>返回值</td>
+<td>可定义stderr，显示到客户端   如：发送邮件失败~</td>
+</tr>
+</tbody>
+</table>
+<h3 id="待考究类型"><a href="#待考究类型" class="headerlink" title="待考究类型"></a>待考究类型</h3><table>
+<thead>
+<tr>
+<th>类型</th>
+<th>触发时机</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pre-lock.tmpl</td>
+<td>对文件进行加锁操作之前执行该脚本</td>
+</tr>
+<tr>
+<td>pre-revprop-change.tmpl</td>
+<td>在修改 revision 属性之前，执行该脚本</td>
+</tr>
+<tr>
+<td>pre-unlock.tmpl</td>
+<td>对文件进行解锁操作之前执行该脚本</td>
+</tr>
+<tr>
+<td>post-lock.tmpl</td>
+<td>对文件进行加锁操作之后执行该脚本</td>
+</tr>
+<tr>
+<td>post-revprop-change.tmpl</td>
+<td>在修改 revision 属性之后，执行该脚本</td>
+</tr>
+<tr>
+<td>post-unlock.tmpl</td>
+<td>对文件进行解锁操作之后执行该脚本</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="实际使用"><a href="#实际使用" class="headerlink" title="实际使用"></a>实际使用</h2><p><strong>建立钩子脚本</strong></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line">a 、将tmpl文件修改成可执行的shell脚本</div><div class="line"></div><div class="line">	mv pre-commit.tmpl pre-commit</div><div class="line">	chmod a+x pre-commit</div><div class="line"></div><div class="line">b、开始编写shell （以PHP shell 为例）</div><div class="line"></div><div class="line">	#!/bin/env php</div><div class="line">	&lt;?php</div><div class="line">	# 设置环境变量 保证utf-8输出</div><div class="line">	putenv("LANG=en_US");</div><div class="line">	putenv("LC_ALL=en_US.UTF-8");</div><div class="line"></div><div class="line">	# 获取全局参数 提交过程中的钩子 适用于格式判断</div><div class="line">	$info = var_export($argv, true);</div><div class="line"></div><div class="line">	# 获取传递参数</div><div class="line">	$HOOKS = $argv[0]; // svn 的pre-commit 目录地址</div><div class="line">	$REPOS = $argv[1]; // 仓库地址</div><div class="line">	$TXN   = $argv[2]; // Transaction Name 事务ID，此次进程的唯一标示</div><div class="line"></div><div class="line">	# 获取提交日志的信息</div><div class="line">	$cmd = "svnlook log -t $TXN $REPOS";</div><div class="line">	$logData = shell_exec($cmd);</div><div class="line"></div><div class="line">	# preg: 检查注释必须5个字符一样</div><div class="line">	if (mb_strlen($logData) &lt; 10) &#123;</div><div class="line">		error_log("必须10个字符以上的注释哦~");</div><div class="line">		exit(1);</div><div class="line">	&#125;</div></pre></td></tr></table></figure>
+<p><strong>一些技巧</strong></p>
+<ul>
+<li><p>1、设置全局的字符编码，保证UTF-8字符输出。2种做法</p>
+<p>   a、putenv(“LANG=en_US”);<br>   b、 $cmd = “env lang en_US svnlook log -t $TXN $REPOS”;</p>
+</li>
+<li><p>2、svnlook 命令的<a href="http://www.cnblogs.com/wangjiyuan/p/svnnn.html" target="_blank" rel="external">详解</a></p>
+</li>
+<li>3、正则用法来匹配请求是否符合规范</li>
+</ul>
+<p><strong>未解之谜</strong></p>
+<ul>
+<li>1、error_log 客户端显示中文？？</li>
+<li>2、多版本库 如何简化钩子的使用？？</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;SVN钩子&lt;/strong&gt; 就是被版本库事件触发的程序或脚本，例如新修订版本的创建，或是未版本化属性的修改。每个钩子都会被
+    
+    </summary>
+    
+      <category term="svn" scheme="https://zjlove0206.github.io/categories/svn/"/>
+    
+    
+      <category term="svn" scheme="https://zjlove0206.github.io/tags/svn/"/>
+    
+      <category term="钩子" scheme="https://zjlove0206.github.io/tags/%E9%92%A9%E5%AD%90/"/>
+    
+  </entry>
   
   <entry>
     <title>AdminLte后台UI框架</title>
