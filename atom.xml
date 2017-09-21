@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zjlove0206.github.io/"/>
-  <updated>2017-09-21T02:13:34.000Z</updated>
+  <updated>2017-09-21T02:18:44.000Z</updated>
   <id>https://zjlove0206.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://zjlove0206.github.io/2017/09/21/Foxmail%E5%88%9D%E6%8E%A2/"/>
     <id>https://zjlove0206.github.io/2017/09/21/Foxmail初探/</id>
     <published>2017-09-21T01:55:57.000Z</published>
-    <updated>2017-09-21T02:13:34.000Z</updated>
+    <updated>2017-09-21T02:18:44.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Foxmail简介"><a href="#Foxmail简介" class="headerlink" title="Foxmail简介"></a>Foxmail简介</h2><p><strong>Foxmail</strong> 是国内比较知名的邮件客户端，有较强的反垃圾邮件以及exchange功能。同时支持windows、macOS系统，由微信之父张小龙研制。并与05年被腾讯收购。所以在后面的几年了除了windows版本有持续更新，macOS并没有太多版本支持，所以今天的问题也是由此产生，所以对此进行了一下深究（针对macOS版本，windows 用户自行脑补）如下：</p>
 <h2 id="发行版本"><a href="#发行版本" class="headerlink" title="发行版本"></a>发行版本</h2><table>
@@ -58,7 +58,7 @@
 <figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="https://zjlove0206.github.io/img/foxmail_gengxin.png" alt="" title="">
+                    <img src="https://zjlove0206.github.io/img/foxmail-gengxin.png" alt="" title="">
                 </div>
                 <div class="image-caption"></div>
             </figure>
@@ -129,7 +129,7 @@
 <li><figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="https://zjlove0206.github.io/img/foxmail_update.png" alt="" title="">
+                    <img src="https://zjlove0206.github.io/img/foxmail-update.png" alt="" title="">
                 </div>
                 <div class="image-caption"></div>
             </figure></li>
@@ -142,7 +142,7 @@
 <li><figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="https://zjlove0206.github.io/img/foxmail_setting.png" alt="" title="">
+                    <img src="https://zjlove0206.github.io/img/foxmail-setting.png" alt="" title="">
                 </div>
                 <div class="image-caption"></div>
             </figure></li>
