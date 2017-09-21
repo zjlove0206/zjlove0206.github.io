@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    <title>Foxmail初探 | 每日一学 | 学而不思则罔，思而不学则殆</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="foxmail,协议">
+    <meta name="description" content="Foxmail简介Foxmail 是国内比较知名的邮件客户端，有较强的反垃圾邮件以及exchange功能。同时支持windows、macOS系统，由微信之父张小龙研制。并与05年被腾讯收购。所以在后面的几年了除了windows版本有持续更新，macOS并没有太多版本支持，所以今天的问题也是由此产生，所以对此进行了一下深究（针对macOS版本，windows 用户自行脑补）如下： 发行版本   渠道">
+<meta name="keywords" content="foxmail,协议">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Foxmail初探">
+<meta property="og:url" content="https://zjlove0206.github.io/2017/09/21/Foxmail初探/index.html">
+<meta property="og:site_name" content="每日一学">
+<meta property="og:description" content="Foxmail简介Foxmail 是国内比较知名的邮件客户端，有较强的反垃圾邮件以及exchange功能。同时支持windows、macOS系统，由微信之父张小龙研制。并与05年被腾讯收购。所以在后面的几年了除了windows版本有持续更新，macOS并没有太多版本支持，所以今天的问题也是由此产生，所以对此进行了一下深究（针对macOS版本，windows 用户自行脑补）如下： 发行版本   渠道">
+<meta property="og:image" content="https://zjlove0206.github.io/img/foxmail_gengxin.png">
+<meta property="og:image" content="https://zjlove0206.github.io/img/foxmail_update.png">
+<meta property="og:image" content="https://zjlove0206.github.io/img/foxmail_setting.png">
+<meta property="og:updated_time" content="2017-09-21T02:13:34.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Foxmail初探">
+<meta name="twitter:description" content="Foxmail简介Foxmail 是国内比较知名的邮件客户端，有较强的反垃圾邮件以及exchange功能。同时支持windows、macOS系统，由微信之父张小龙研制。并与05年被腾讯收购。所以在后面的几年了除了windows版本有持续更新，macOS并没有太多版本支持，所以今天的问题也是由此产生，所以对此进行了一下深究（针对macOS版本，windows 用户自行脑补）如下： 发行版本   渠道">
+<meta name="twitter:image" content="https://zjlove0206.github.io/img/foxmail_gengxin.png">
+    
+        <link rel="alternate" type="application/atom+xml" title="每日一学" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/avatar.jpg">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">Justin赵小贱</h5>
+          <a href="mailto:1349255792@qq.com" title="1349255792@qq.com" class="mail">1349255792@qq.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                主页
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                归档
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                标签
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-th-list"></i>
+                分类
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://github.com/zjlove0206" target="_blank" >
+                <i class="icon icon-lg icon-github"></i>
+                Github
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="http://weibo.com/zjlove0206" target="_blank" >
+                <i class="icon icon-lg icon-weibo"></i>
+                Weibo
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">Foxmail初探</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">Foxmail初探</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2017-09-21T01:55:57.000Z" itemprop="datePublished" class="page-time">
+  2017-09-21
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/通信协议/">通信协议</a></li></ul>
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Foxmail简介"><span class="post-toc-number">1.</span> <span class="post-toc-text">Foxmail简介</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#发行版本"><span class="post-toc-number">2.</span> <span class="post-toc-text">发行版本</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#通讯协议"><span class="post-toc-number">3.</span> <span class="post-toc-text">通讯协议</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#邮箱配置"><span class="post-toc-number">4.</span> <span class="post-toc-text">邮箱配置</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#常见问题"><span class="post-toc-number">5.</span> <span class="post-toc-text">常见问题</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#相关推荐"><span class="post-toc-number">6.</span> <span class="post-toc-text">相关推荐</span></a></li></ol>
+        </nav>
+    </aside>
+    
+<article id="post-Foxmail初探"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">Foxmail初探</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2017-09-21 09:55:57" datetime="2017-09-21T01:55:57.000Z"  itemprop="datePublished">2017-09-21</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/通信协议/">通信协议</a></li></ul>
+
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+            
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <h2 id="Foxmail简介"><a href="#Foxmail简介" class="headerlink" title="Foxmail简介"></a>Foxmail简介</h2><p><strong>Foxmail</strong> 是国内比较知名的邮件客户端，有较强的反垃圾邮件以及exchange功能。同时支持windows、macOS系统，由微信之父张小龙研制。并与05年被腾讯收购。所以在后面的几年了除了windows版本有持续更新，macOS并没有太多版本支持，所以今天的问题也是由此产生，所以对此进行了一下深究（针对macOS版本，windows 用户自行脑补）如下：</p>
+<h2 id="发行版本"><a href="#发行版本" class="headerlink" title="发行版本"></a>发行版本</h2><table>
+<thead>
+<tr>
+<th>渠道</th>
+<th>版本号</th>
+<th>支持os系统版本</th>
+<th>是否支持截图发送</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://www.foxmail.com/mac" target="_blank" rel="external">官网</a></td>
+<td>1.2.0.67614</td>
+<td>10.7.3或更高版本</td>
+<td>ALL 系统</td>
+</tr>
+<tr>
+<td><a href="http://rj.baidu.com/soft/detail/25848.html?ald" target="_blank" rel="external">百度</a></td>
+<td>1.2.0.14025</td>
+<td>10.7.3或更高版本</td>
+<td>osX 10.12 ok</td>
+</tr>
+<tr>
+<td><a href="https://itunes.apple.com/cn/app/foxmail/id617950461?mt=12" target="_blank" rel="external">App Store</a></td>
+<td>1.2.0.14017</td>
+<td>10.7.3或更高版本</td>
+<td>不支持</td>
+</tr>
+</tbody>
+</table>
+<p><strong>问题所在：</strong> 本人的MacBook系统版本是10.12.6 ，foxmail下载来源是从app store里下载的，所以此版本不支持截图功能。</p>
+<p><a href="http://www.foxmail.com/mac" target="_blank" rel="external">1.2.0.67614 更新日志</a></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://zjlove0206.github.io/img/foxmail_gengxin.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<p><strong><em>PS：所以建议用Mac的同学在官网进行下载安装，其他软件代议</em></strong></p>
+<hr>
+<h2 id="通讯协议"><a href="#通讯协议" class="headerlink" title="通讯协议"></a>通讯协议</h2><p><strong>发送协议：</strong></p>
+<ul>
+<li>SMTP （Simple Mail Transfer Protocol） 即简单传输协议</li>
+</ul>
+<p><strong>接收协议：</strong></p>
+<ul>
+<li><p>IMAP（Internet Mail Access Protocol） 即交互式邮件存取协议</p>
+</li>
+<li><p>POP3（Post Office Protocol 3） 即邮件协议的第三个版本</p>
+</li>
+</ul>
+<p><strong>IMAP 与 POP3的区别</strong></p>
+<ul>
+<li>简单来说，IMAP是一个进化协议，是可以双向通信的。可以同步服务器和客户端的双操作，而POP3只能是客户端单向操作。</li>
+</ul>
+<p><strong>相关文章：</strong></p>
+<ul>
+<li>什么是通讯协议？<ul>
+<li><a href="http://help.163.com/09/1223/14/5R7P6CJ600753VB8.html" target="_blank" rel="external">http://help.163.com/09/1223/14/5R7P6CJ600753VB8.html</a></li>
+</ul>
+</li>
+<li>IMAP与POP3的区别？<ul>
+<li><a href="http://help.163.com/10/0203/13/5UJONJ4I00753VB8.html" target="_blank" rel="external">http://help.163.com/10/0203/13/5UJONJ4I00753VB8.html</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="邮箱配置"><a href="#邮箱配置" class="headerlink" title="邮箱配置"></a>邮箱配置</h2><table>
+<thead>
+<tr>
+<th>服务器名称</th>
+<th>服务器地址</th>
+<th style="text-align:center">SSL协议端口号</th>
+<th style="text-align:center">非SSL协议端口号</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SMTP</td>
+<td>smtp.exmail.qq.com</td>
+<td style="text-align:center">465／994</td>
+<td style="text-align:center">25</td>
+</tr>
+<tr>
+<td>IMAP</td>
+<td>imap.exmail.qq.com</td>
+<td style="text-align:center">993</td>
+<td style="text-align:center">143</td>
+</tr>
+<tr>
+<td>POP3</td>
+<td>pop.exmail.qq.com</td>
+<td style="text-align:center">995</td>
+<td style="text-align:center">110</td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>SSL协议：</em></strong> 即安全协议 </p>
+<hr>
+<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p><strong>1、Foxmail客户端不支持撤销，但是去web服务器还没有我发的邮件，如何是好？</strong></p>
+<ul>
+<li>a、方案一 （官方推荐）<ul>
+<li><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://zjlove0206.github.io/img/foxmail_update.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure></li>
+<li>然后就可以去web服务器进行撤销</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>b、方案二<ul>
+<li><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://zjlove0206.github.io/img/foxmail_setting.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure></li>
+<li>在“已发送“ 里面有一个 <em>查询发信投递状态</em> 点击里面可以进行撤回</li>
+</ul>
+</li>
+</ul>
+<p><strong><em>如果发现邮件有问题（今天就没有找到撤回，呜呜～～），可以及时选择撤回哦～</em></strong></p>
+<p><strong>2、Foxmail客户端如何进行昵称、签名、exchange分组等操作呢？</strong></p>
+<ul>
+<li><a href="http://kf.qq.com/special_auto/foxmailmac.html" target="_blank" rel="external">常见问题</a> 官网的FAQ里有详解</li>
+</ul>
+<hr>
+<h2 id="相关推荐"><a href="#相关推荐" class="headerlink" title="相关推荐"></a>相关推荐</h2><p><strong>常用邮箱</strong></p>
+<ul>
+<li>foxmail</li>
+<li>QQ邮箱</li>
+<li>gmail</li>
+<li>outlook等等</li>
+</ul>
+<p><strong>效率一波</strong></p>
+<ul>
+<li><a href="http://www.gxtodo.com/web/#/task/list?version=person&amp;id=1017951" target="_blank" rel="external">高效Todo</a> （四象限式的工作方法）</li>
+<li>Android文件管理器 （像windows助手一样管理手机文件）</li>
+<li>Bluestacks 安卓模拟器 （没有测试机的同学可以搞一搞）</li>
+</ul>
+<hr>
+<p><strong>总结：</strong></p>
+<ul>
+<li>一封周报邮件，因为截图的事情发了三封才有结论。不应该（严肃脸），这是本身对非职能的一个缺陷</li>
+<li>大概整理了下关于foxmail的一些常用的东西，希望大家有帮助，也不要踩我踩过的坑了</li>
+</ul>
+
+        </div>
+
+        <blockquote class="post-copyright">
+    <div class="content">
+        
+<span class="post-time">
+    最后更新时间：<time datetime="2017-09-21T02:13:34.000Z" itemprop="dateUpdated">2017-09-21 10:13:34</time>
+</span><br>
+
+
+        
+        这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="/2017/09/21/Foxmail初探/" target="_blank" rel="external">https://zjlove0206.github.io/2017/09/21/Foxmail初探/</a>
+        
+    </div>
+    <footer>
+        <a href="https://zjlove0206.github.io">
+            <img src="/img/avatar.jpg" alt="Justin赵小贱">
+            Justin赵小贱
+        </a>
+    </footer>
+</blockquote>
+
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/foxmail/">foxmail</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/协议/">协议</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://zjlove0206.github.io/2017/09/21/Foxmail初探/&title=《Foxmail初探》 — 每日一学&pic=https://zjlove0206.github.io/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://zjlove0206.github.io/2017/09/21/Foxmail初探/&title=《Foxmail初探》 — 每日一学&source=后端程序狗" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://zjlove0206.github.io/2017/09/21/Foxmail初探/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Foxmail初探》 — 每日一学&url=https://zjlove0206.github.io/2017/09/21/Foxmail初探/&via=https://zjlove0206.github.io" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://zjlove0206.github.io/2017/09/21/Foxmail初探/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/2017/08/05/SVN钩子使用/" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">SVN钩子使用</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+
+
+
+
+
+<section class="comments" id="comments">
+    <!-- UY BEGIN -->
+    <div id="uyan_frame"></div>
+    <script src="http://v2.uyan.cc/code/uyan.js?uid=2132978"></script>
+    <!-- UY END -->
+</section>
+
+
+
+
+
+
+
+
+
+
+</article>
+
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        谢谢大爷~
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <ul class="reward-items">
+        
+        <li>
+            <img src="/img/wechat.jpg" title="微信打赏二维码" alt="微信打赏二维码">
+            <p>微信</p>
+        </li>
+        
+
+        
+        <li>
+            <img src="/img/alipay.jpg" title="支付宝打赏二维码" alt="支付宝打赏二维码">
+            <p>支付宝</p>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        站点总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        站点总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>博客内容遵循<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享 署名 - 非商业性 - 相同方式共享 4.0 国际协议</a></span>
+        </p>
+    </div>
+    <div class="bottom">
+        <p>
+            <span>Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a></span>
+            <span>Justin赵小贱 &copy; 2017</span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://zjlove0206.github.io/2017/09/21/Foxmail初探/&title=《Foxmail初探》 — 每日一学&pic=https://zjlove0206.github.io/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://zjlove0206.github.io/2017/09/21/Foxmail初探/&title=《Foxmail初探》 — 每日一学&source=后端程序狗" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://zjlove0206.github.io/2017/09/21/Foxmail初探/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Foxmail初探》 — 每日一学&url=https://zjlove0206.github.io/2017/09/21/Foxmail初探/&via=https://zjlove0206.github.io" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://zjlove0206.github.io/2017/09/21/Foxmail初探/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACO0lEQVR42u3azW7CMBBFYd7/pVOpKypIcq7HoNpzskKBOv6ymM6PHw98Hb/X6+fnO8/X2f2z6/X3j09cMmTIWJZRecD1ptMnkjVP15chQ0YDBgmyZNOV+yS4n96XIUOGjMtQywNlhSRDhgwZnMEfw9M+GTJkyCAMXlheb5oXt2MJ5YRaXIYMGQsyKoOBT3/+0nxDhgwZ/5hxhBdPB1EyhweiN7uSIUPG1gyeulXGBukQlEfXuG6WIUPGgoz0SES9GceDMilZ//zfkCFDRhvGYFO+3OhPD429yXBlyJCxKYMHQV5qkjUr65+uKUOGjAaMtHBNO/ZzRxQ3Z0ZkyJCxEWOwBV8JiyCVJE3ACfMNGTJkLMLgwZQ3zioDgLH0VIYMGR0Y/NgoHx5UGm1pM06GDBl7M9Iic+z3aZAlQ9A3I0wZMmQ0YFTK1zS9q5fEg7W4DBkyFmTwNK7SPuMpY+m4mAwZMtowePuswksHotelsgwZMvow5m49TQp5kYyOhcmQIWM7RiXMkXECHzmQY6wxSYYMGYsz0kbb2MGv9Nu46JUhQ0YbBl9oMEULt84bdjJkyNibMbbcGH7W65AhQ0Y3xhFe9fbcWDF885pkyJCxNaOS0qVJG2nAkeMXaSEtQ4aMPRj1hn5lGEmehfYgQ4aMBox6Sscx6UsZPDMiQ4aMlgzeYuN/y0nTAq4MGTIaMHhBS75NI6cMGTI6M3gRWz8kwY+UBevIkCFja0ZaOqZb4aGZJ44xQIYMGasyfgBaYo50oS1ptAAAAABJRU5ErkJggg==" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+
+
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+<script>
+(function() {
+    var OriginTitile = document.title, titleTime;
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+            document.title = '磨磨唧唧干啥呢';
+            clearTimeout(titleTime);
+        } else {
+            document.title = '(つェ⊂)咦!又好了!';
+            titleTime = setTimeout(function() {
+                document.title = OriginTitile;
+            },2000);
+        }
+    });
+})();
+</script>
+
+
+
+</body>
+</html>
