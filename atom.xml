@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zjlove0206.github.io/"/>
-  <updated>2017-09-21T02:18:44.000Z</updated>
+  <updated>2019-01-11T04:27:11.000Z</updated>
   <id>https://zjlove0206.github.io/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PMP</title>
+    <link href="https://zjlove0206.github.io/2019/01/11/PMP/"/>
+    <id>https://zjlove0206.github.io/2019/01/11/PMP/</id>
+    <published>2019-01-11T04:24:32.000Z</published>
+    <updated>2019-01-11T04:27:11.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="PMP-是什么？"><a href="#PMP-是什么？" class="headerlink" title="PMP 是什么？"></a>PMP 是什么？</h3><h3 id="PMP-能做什么？"><a href="#PMP-能做什么？" class="headerlink" title="PMP 能做什么？"></a>PMP 能做什么？</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;PMP-是什么？&quot;&gt;&lt;a href=&quot;#PMP-是什么？&quot; class=&quot;headerlink&quot; title=&quot;PMP 是什么？&quot;&gt;&lt;/a&gt;PMP 是什么？&lt;/h3&gt;&lt;h3 id=&quot;PMP-能做什么？&quot;&gt;&lt;a href=&quot;#PMP-能做什么？&quot; class=&quot;he
+    
+    </summary>
+    
+      <category term="pmp" scheme="https://zjlove0206.github.io/categories/pmp/"/>
+    
+    
+      <category term="pmp" scheme="https://zjlove0206.github.io/tags/pmp/"/>
+    
+      <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>Foxmail初探</title>

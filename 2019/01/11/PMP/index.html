@@ -13,26 +13,24 @@
     
     
     
-    <title>NSQ初探 | 每日一学 | 学而不思则罔，思而不学则殆</title>
+    <title>PMP | 每日一学 | 学而不思则罔，思而不学则殆</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <meta name="theme-color" content="#3F51B5">
     
     
-    <meta name="keywords" content="NSQ,消息队列">
-    <meta name="description" content="NSQ 是一个实时的分布式消息平台。它的设计目标是为在多台计算机上运行的松散服务提供一个现代化的基础设施骨架。它基于go语言的NSQ的内部架构，它能够为高吞吐量的网络服务器带来性能的优化，稳定性和鲁棒性。  概要 NSQ是由四个重要组件构成：  nsqd：一个负责接收、排队、转发消息到客户端的守护进程 nsqlookupd：管理拓扑信息并提供最终一致性的发现服务的守护进程 nsqadmin：一套W">
-<meta name="keywords" content="NSQ,消息队列">
+    <meta name="keywords" content="pmp,项目管理">
+    <meta name="description" content="PMP 是什么？PMP 能做什么？">
+<meta name="keywords" content="pmp,项目管理">
 <meta property="og:type" content="article">
-<meta property="og:title" content="NSQ初探">
-<meta property="og:url" content="https://zjlove0206.github.io/2017/05/07/NSQ初探/index.html">
+<meta property="og:title" content="PMP">
+<meta property="og:url" content="https://zjlove0206.github.io/2019/01/11/PMP/index.html">
 <meta property="og:site_name" content="每日一学">
-<meta property="og:description" content="NSQ 是一个实时的分布式消息平台。它的设计目标是为在多台计算机上运行的松散服务提供一个现代化的基础设施骨架。它基于go语言的NSQ的内部架构，它能够为高吞吐量的网络服务器带来性能的优化，稳定性和鲁棒性。  概要 NSQ是由四个重要组件构成：  nsqd：一个负责接收、排队、转发消息到客户端的守护进程 nsqlookupd：管理拓扑信息并提供最终一致性的发现服务的守护进程 nsqadmin：一套W">
-<meta property="og:image" content="https://zjlove0206.github.io/2017/05/07/NSQ初探/nsq_原理图.gif">
-<meta property="og:updated_time" content="2017-05-07T15:18:37.000Z">
+<meta property="og:description" content="PMP 是什么？PMP 能做什么？">
+<meta property="og:updated_time" content="2019-01-11T04:27:11.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="NSQ初探">
-<meta name="twitter:description" content="NSQ 是一个实时的分布式消息平台。它的设计目标是为在多台计算机上运行的松散服务提供一个现代化的基础设施骨架。它基于go语言的NSQ的内部架构，它能够为高吞吐量的网络服务器带来性能的优化，稳定性和鲁棒性。  概要 NSQ是由四个重要组件构成：  nsqd：一个负责接收、排队、转发消息到客户端的守护进程 nsqlookupd：管理拓扑信息并提供最终一致性的发现服务的守护进程 nsqadmin：一套W">
-<meta name="twitter:image" content="https://zjlove0206.github.io/2017/05/07/NSQ初探/nsq_原理图.gif">
+<meta name="twitter:title" content="PMP">
+<meta name="twitter:description" content="PMP 是什么？PMP 能做什么？">
     
         <link rel="alternate" type="application/atom+xml" title="每日一学" href="/atom.xml">
     
@@ -116,7 +114,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">NSQ初探</div>
+        <div class="flex-col header-title ellipsis">PMP</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -138,15 +136,15 @@
 <header class="content-header post-header">
 
     <div class="container fade-scale">
-        <h1 class="title">NSQ初探</h1>
+        <h1 class="title">PMP</h1>
         <h5 class="subtitle">
             
-                <time datetime="2017-05-07T15:17:24.000Z" itemprop="datePublished" class="page-time">
-  2017-05-07
+                <time datetime="2019-01-11T04:24:32.000Z" itemprop="datePublished" class="page-time">
+  2019-01-11
 </time>
 
 
-	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/消息队列/">消息队列</a></li></ul>
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/pmp/">pmp</a></li></ul>
 
             
         </h5>
@@ -160,16 +158,23 @@
 
 <div class="container body-wrap">
     
-<article id="post-NSQ初探"
+    <aside class="post-widget">
+        <nav class="post-toc-wrap" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#PMP-是什么？"><span class="post-toc-number">1.</span> <span class="post-toc-text">PMP 是什么？</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#PMP-能做什么？"><span class="post-toc-number">2.</span> <span class="post-toc-text">PMP 能做什么？</span></a></li></ol>
+        </nav>
+    </aside>
+    
+<article id="post-PMP"
   class="post-article article-type-post fade" itemprop="blogPost">
 
     <div class="post-card">
-        <h1 class="post-card-title">NSQ初探</h1>
+        <h1 class="post-card-title">PMP</h1>
         <div class="post-meta">
-            <time class="post-time" title="2017-05-07 23:17:24" datetime="2017-05-07T15:17:24.000Z"  itemprop="datePublished">2017-05-07</time>
+            <time class="post-time" title="2019-01-11 12:24:32" datetime="2019-01-11T04:24:32.000Z"  itemprop="datePublished">2019-01-11</time>
 
             
-	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/消息队列/">消息队列</a></li></ul>
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/pmp/">pmp</a></li></ul>
 
 
 
@@ -183,54 +188,19 @@
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <p><strong>NSQ</strong> 是一个实时的分布式消息平台。它的设计目标是为在多台计算机上运行的松散服务提供一个现代化的基础设施骨架。它基于go语言的NSQ的内部架构，它能够为高吞吐量的网络服务器带来性能的优化，稳定性和鲁棒性。</p>
-<hr>
-<p><strong>概要</strong></p>
-<p><strong><em>NSQ是由四个重要组件构成：</em></strong></p>
-<ul>
-<li><strong>nsqd</strong>：一个负责接收、排队、转发消息到客户端的守护进程</li>
-<li><strong>nsqlookupd</strong>：管理拓扑信息并提供最终一致性的发现服务的守护进程</li>
-<li><strong>nsqadmin</strong>：一套Web用户界面，可实时查看集群的统计数据和执行各种各样的管理任务</li>
-<li><strong>utilities</strong>：常见基础功能、数据流处理工具，如nsq_stat、nsq_tail、nsq_to_file、nsq_to_http、nsq_to_nsq、to_nsq</li>
-</ul>
-<hr>
-<p><strong>构成</strong></p>
-<p><strong><em>nsq的设计构成</em></strong></p>
-<ul>
-<li><strong>topic</strong> 一个可供订阅的话题。流数据 stream </li>
-<li><strong>channel</strong> 属于topic的下一级，一个topic可以有多个channel</li>
-</ul>
-<p><strong><em>PS：一个nsqd可以包含多个订阅（topics），每个订阅可以有多个channels。并且所有的channels拿到的都是topic的全部副本。nsq会做负载均衡</em></strong></p>
-<hr>
-<p><strong>对外支持</strong></p>
-<ul>
-<li>Tcp/IP 传输协议</li>
-<li>Http 应用层协议</li>
-</ul>
-<hr>
-<p><strong>原理图</strong></p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="./nsq_原理图.gif" alt="Alt text" title="">
-                </div>
-                <div class="image-caption">Alt text</div>
-            </figure>
-<hr>
-<p><strong><em>PS：更多有深入的内容，敬请期待~</em></strong></p>
-
+            <h3 id="PMP-是什么？"><a href="#PMP-是什么？" class="headerlink" title="PMP 是什么？"></a>PMP 是什么？</h3><h3 id="PMP-能做什么？"><a href="#PMP-能做什么？" class="headerlink" title="PMP 能做什么？"></a>PMP 能做什么？</h3>
         </div>
 
         <blockquote class="post-copyright">
     <div class="content">
         
 <span class="post-time">
-    最后更新时间：<time datetime="2017-05-07T15:18:37.000Z" itemprop="dateUpdated">2017-05-07 23:18:37</time>
+    最后更新时间：<time datetime="2019-01-11T04:27:11.000Z" itemprop="dateUpdated">2019-01-11 12:27:11</time>
 </span><br>
 
 
         
-        这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="/2017/05/07/NSQ初探/" target="_blank" rel="external">https://zjlove0206.github.io/2017/05/07/NSQ初探/</a>
+        这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="/2019/01/11/PMP/" target="_blank" rel="external">https://zjlove0206.github.io/2019/01/11/PMP/</a>
         
     </div>
     <footer>
@@ -250,7 +220,7 @@
 
         <div class="post-footer">
             
-	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/NSQ/">NSQ</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/消息队列/">消息队列</a></li></ul>
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/pmp/">pmp</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/项目管理/">项目管理</a></li></ul>
 
 
             
@@ -260,7 +230,7 @@
 <div class="page-share" id="pageShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://zjlove0206.github.io/2017/05/07/NSQ初探/&title=《NSQ初探》 — 每日一学&pic=https://zjlove0206.github.io/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://zjlove0206.github.io/2019/01/11/PMP/&title=《PMP》 — 每日一学&pic=https://zjlove0206.github.io/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -270,22 +240,22 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://zjlove0206.github.io/2017/05/07/NSQ初探/&title=《NSQ初探》 — 每日一学&source=后端程序狗" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://zjlove0206.github.io/2019/01/11/PMP/&title=《PMP》 — 每日一学&source=后端程序狗" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://zjlove0206.github.io/2017/05/07/NSQ初探/" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://zjlove0206.github.io/2019/01/11/PMP/" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《NSQ初探》 — 每日一学&url=https://zjlove0206.github.io/2017/05/07/NSQ初探/&via=https://zjlove0206.github.io" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《PMP》 — 每日一学&url=https://zjlove0206.github.io/2019/01/11/PMP/&via=https://zjlove0206.github.io" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://zjlove0206.github.io/2017/05/07/NSQ初探/" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://zjlove0206.github.io/2019/01/11/PMP/" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -305,21 +275,14 @@
     </div>
 
     
-<nav class="post-nav flex-row flex-justify-between">
-  
-    <div class="waves-block waves-effect prev">
-      <a href="/2017/05/07/AdminLte后台UI框架/" id="post-prev" class="post-nav-link">
-        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
-        <h4 class="title">AdminLte后台UI框架</h4>
-      </a>
-    </div>
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
   
 
   
     <div class="waves-block waves-effect next">
-      <a href="/2017/05/07/Hexo搭建博客/" id="post-next" class="post-nav-link">
+      <a href="/2017/09/21/Foxmail初探/" id="post-next" class="post-nav-link">
         <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
-        <h4 class="title">Hexo搭建博客</h4>
+        <h4 class="title">Foxmail初探</h4>
       </a>
     </div>
   
@@ -418,7 +381,7 @@
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://zjlove0206.github.io/2017/05/07/NSQ初探/&title=《NSQ初探》 — 每日一学&pic=https://zjlove0206.github.io/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://zjlove0206.github.io/2019/01/11/PMP/&title=《PMP》 — 每日一学&pic=https://zjlove0206.github.io/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -428,22 +391,22 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://zjlove0206.github.io/2017/05/07/NSQ初探/&title=《NSQ初探》 — 每日一学&source=后端程序狗" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://zjlove0206.github.io/2019/01/11/PMP/&title=《PMP》 — 每日一学&source=后端程序狗" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://zjlove0206.github.io/2017/05/07/NSQ初探/" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://zjlove0206.github.io/2019/01/11/PMP/" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《NSQ初探》 — 每日一学&url=https://zjlove0206.github.io/2017/05/07/NSQ初探/&via=https://zjlove0206.github.io" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《PMP》 — 每日一学&url=https://zjlove0206.github.io/2019/01/11/PMP/&via=https://zjlove0206.github.io" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://zjlove0206.github.io/2017/05/07/NSQ初探/" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://zjlove0206.github.io/2019/01/11/PMP/" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -454,7 +417,7 @@
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACKklEQVR42u3awY7DIAxF0fz/T2e2I1Wh99mkEnBZdUEaThaWsX1deN3/Vm3/57NPe/hb4iVDhoxlGfdwzfpOT/8wBpOzyZAh4xzG04vHe9LQnH4scjYZMmTIqO3hwZoEXBkyZMjoH5FfSscJogwZMmSMGSRpG6eDpKxG/uf1u7gMGTIWZPCr6e9/v9LfkCFDxlKMO1z8f2qpYW3JkCFjbwYPcDwhqzUj07RPhgwZpzFIYYuHXf4UGbwY77xQHU6GDBn7MGqtgk7Rnxfa0raoDBkydmKkx+WDESnvp4FVhgwZyzJqgbLWCuWDYuhUMmTI2JqRDjp0BiD4sVofVIYMGZsyageqBdzamAXaL0OGjK0ZbyR8/GW1YM2bnTJkyFidUSuQkWDKy/q8GIemRWTIkHEkI20GpMdKGxVBY0CGDBkbMWohkpfy++kjGraQIUPGMQxydeShkF9N47v1ZydWhgwZBzBq6V1ajOOF/iC4y5AhY2tGsbxVGhTjIx3ph5AhQ8YJjNoFMh2V6ABQYipDhowDGCRBTKc2eBluwieTIUPGMYw0OePltnTYIv40MmTI2JRxh4tfbklKl7ZLv9y/ZciQsSkjbRbWrp288dBvG8iQIWNXRqfsNasZ2RkykyFDxjkMHvj66d2Ld3EZMmTIwK+ZC75qL5YhQ8bBDB6IOYk8NTk1lCFDxoKMWS1M3hggofyVcpsMGTIWZKR5V7/ByfdMbmrKkCFjPcYfLBdBz+lnvkIAAAAASUVORK5CYII=" alt="微信分享二维码">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACNElEQVR42u3awW6DQAxFUf7/p6nUbctwnz2JhLmsqpDAnM3reOzjwNf5e119cl5c67vr7xyfuGTIkPFYBn/N+pXrpVw9bX2XrE2GDBnvYaxDdv2d4GV/frX+nKxNhgwZMtYvrkVwGu4yZMiQkQbuelm89E23iTJkyJDROQ5LQ7b2ybZaXIYMGQ9kpI2Bb/79wf6GDBkyHsI4N128rCWbwvjtMmTIGM0gR2np+EXn8I5sE1HsypAhYxCj07wkR/w8WPnT/kHKkCFjNCMtXGvbRD5O0Rq2kCFDxmgGGdKqRTO5y0cubqJchgwZQxmdAE23g2lJHFBlyJDxAkZtG5ce3pEArRW6MmTImM3gy023hp29arqhlCFDxmwGCTL+0HTR/Sejc0EZMmQMYvBikh/ok0KXl7s3020yZMgYyuhszvhxGB+bSFsLqO8qQ4aMhzM6Exlp65EHbnzMJ0OGjNGMNDRrMUqWmLZRb8bCZMiQMYjBRytqC+WlLPnt5WZRhgwZoxnpg/Ye6PdbmzJkyHgbYx24aWnKa8y0nRD/B5AhQ8Y4xicCt9/URN+UIUPGaEbnsKzfAOi0ImTIkPEGRj9keQTXClr0XhkyZIxmpG2AdCyMwHYNqMmQIWM2o9M4TI/P0q3khpkRGTJkDGLw4Ks1O/vZf8OTIUOGjDBw1yHbGcvYFrgyZMgYyiBLSReURjyqs2XIkDGUsSsuCSnuqcqQIeP1jFpjgG/sagMWtcEyGTJkjGP8ACygnpzgX6RcAAAAAElFTkSuQmCC" alt="微信分享二维码">
 </div>
 
 
