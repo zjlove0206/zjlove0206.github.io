@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zjlove0206.github.io/"/>
-  <updated>2019-01-15T12:52:28.000Z</updated>
+  <updated>2019-01-15T12:55:31.000Z</updated>
   <id>https://zjlove0206.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://zjlove0206.github.io/2019/01/15/4-7%E7%BB%93%E6%9D%9F%E9%A1%B9%E7%9B%AE%E6%88%96%E9%98%B6%E6%AE%B5/"/>
     <id>https://zjlove0206.github.io/2019/01/15/4-7结束项目或阶段/</id>
     <published>2019-01-15T12:42:34.000Z</published>
-    <updated>2019-01-15T12:52:28.000Z</updated>
+    <updated>2019-01-15T12:55:31.000Z</updated>
     
     <content type="html"><![CDATA[<p><strong>参考资料：</strong> PMBOK P121-P128</p>
 <p><strong>整合管理 - 收尾过程组</strong></p>
@@ -546,7 +546,7 @@
     <link href="https://zjlove0206.github.io/2019/01/15/4-3%E6%8C%87%E5%AF%BC%E4%B8%8E%E7%AE%A1%E7%90%86%E9%A1%B9%E7%9B%AE%E5%B7%A5%E4%BD%9C/"/>
     <id>https://zjlove0206.github.io/2019/01/15/4-3指导与管理项目工作/</id>
     <published>2019-01-15T12:40:59.000Z</published>
-    <updated>2019-01-15T12:48:40.000Z</updated>
+    <updated>2019-01-15T12:49:01.000Z</updated>
     
     <content type="html"><![CDATA[<p><strong>参考资料：</strong> PMBOK P90-P97</p>
 <p><strong>整合管理 - 执行过程组</strong></p>
@@ -1495,7 +1495,7 @@
     <link href="https://zjlove0206.github.io/2019/01/11/%E7%AC%AC07%E7%AB%A0%20%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
     <id>https://zjlove0206.github.io/2019/01/11/第07章 项目成本管理/</id>
     <published>2019-01-11T12:16:36.000Z</published>
-    <updated>2019-01-15T12:26:43.000Z</updated>
+    <updated>2019-01-15T12:56:20.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><strong>项目成本管理</strong> 包括为使项目在批准的预算内完成而对成本进行规划、估算、预算、融资、筹资、管理和控制的各个过程，从而<strong><code>确保项目在批准的预算内完工</code></strong>。</p>
 <h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p><strong>确保项目在批准的预算内完成工作，提前对成本进行规划、估算、预算和控制的过程。</strong></p>
@@ -1528,12 +1528,12 @@
     
     </summary>
     
-      <category term="pmp" scheme="https://zjlove0206.github.io/categories/pmp/"/>
+      <category term="PMP" scheme="https://zjlove0206.github.io/categories/PMP/"/>
     
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/tags/PMP/"/>
     
       <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
-    
-      <category term="pmp" scheme="https://zjlove0206.github.io/tags/pmp/"/>
     
       <category term="成本管理" scheme="https://zjlove0206.github.io/tags/%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
     
@@ -1771,7 +1771,7 @@
     <link href="https://zjlove0206.github.io/2019/01/11/PMP/"/>
     <id>https://zjlove0206.github.io/2019/01/11/PMP/</id>
     <published>2019-01-11T04:24:32.000Z</published>
-    <updated>2019-01-11T12:14:07.000Z</updated>
+    <updated>2019-01-15T12:56:07.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="PMP-是什么？"><a href="#PMP-是什么？" class="headerlink" title="PMP 是什么？"></a>PMP 是什么？</h3><ul>
 <li><strong>PMP指的是项目管理专业人士资格认证。它是由美国项目管理协会（Project Management Institute(PMI)发起的，严格评估项目管理人员知识技能是否具有高品质的资格认证考试。</strong></li>
@@ -1807,12 +1807,12 @@
     
     </summary>
     
-      <category term="pmp" scheme="https://zjlove0206.github.io/categories/pmp/"/>
+      <category term="PMP" scheme="https://zjlove0206.github.io/categories/PMP/"/>
     
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/tags/PMP/"/>
     
       <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
-    
-      <category term="pmp" scheme="https://zjlove0206.github.io/tags/pmp/"/>
     
   </entry>
   
