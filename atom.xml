@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zjlove0206.github.io/"/>
-  <updated>2019-01-11T04:27:11.000Z</updated>
+  <updated>2019-01-15T12:52:28.000Z</updated>
   <id>https://zjlove0206.github.io/</id>
   
   <author>
@@ -16,26 +16,1803 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>PMP</title>
-    <link href="https://zjlove0206.github.io/2019/01/11/PMP/"/>
-    <id>https://zjlove0206.github.io/2019/01/11/PMP/</id>
-    <published>2019-01-11T04:24:32.000Z</published>
-    <updated>2019-01-11T04:27:11.000Z</updated>
+    <title>4.7 结束项目或阶段</title>
+    <link href="https://zjlove0206.github.io/2019/01/15/4-7%E7%BB%93%E6%9D%9F%E9%A1%B9%E7%9B%AE%E6%88%96%E9%98%B6%E6%AE%B5/"/>
+    <id>https://zjlove0206.github.io/2019/01/15/4-7结束项目或阶段/</id>
+    <published>2019-01-15T12:42:34.000Z</published>
+    <updated>2019-01-15T12:52:28.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="PMP-是什么？"><a href="#PMP-是什么？" class="headerlink" title="PMP 是什么？"></a>PMP 是什么？</h3><h3 id="PMP-能做什么？"><a href="#PMP-能做什么？" class="headerlink" title="PMP 能做什么？"></a>PMP 能做什么？</h3>]]></content>
+    <content type="html"><![CDATA[<p><strong>参考资料：</strong> PMBOK P121-P128</p>
+<p><strong>整合管理 - 收尾过程组</strong></p>
+<hr>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><strong>结束项目或阶段</strong> 是<code>终结项目</code>、<code>阶段</code>或<code>合同的所有活动</code>的过程。</p>
+<h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p><strong>结束项目或阶段的作用：</strong> <code>存档项目或阶段信息</code>，<code>完成计划的工作</code>，<code>释放组织团队资源</code>以开展新的工作。</p>
+<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p><strong>1、<code>仅开展一次</code>或<code>仅在项目的预定义点</code>开展</strong></p>
+<p><strong>2、PM需回顾项目管理计划，确保<code>所有工作都完成</code>并<code>达成项目目标</code></strong></p>
+<p><strong>3、如果完工前提前终止协议，本过程还需要制定程序，来调查和记录提前终止的原因</strong></p>
+<h2 id="ITTO"><a href="#ITTO" class="headerlink" title="ITTO"></a>ITTO</h2><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/0/0/0466cfa073affdf4abd678a602da7a1bf8dd27e0.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/9/4/9d2d66b8f2170d2ed3a0cfba14ae5cb0a61b1ac4.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<p><strong>4.7.1 结束项目或阶段：输入</strong></p>
+<ul>
+<li><p>4.7.1.1 项目章程</p>
+</li>
+<li><p>4.7.1.2 项目管理计划</p>
+</li>
+<li><p>4.7.1.3 项目文件</p>
+</li>
+<li><p>4.7.1.4 验收的可交付成果</p>
+</li>
+<li><p>4.7.1.5 商业文件</p>
+</li>
+<li><p>4.7.1.6 协议</p>
+</li>
+<li><p>4.7.1.7 采购文档</p>
+</li>
+<li><p>4.7.1.8 组织过程资产</p>
+</li>
+</ul>
+<p><strong>4.7.2 结束项目或阶段：工具与技术</strong></p>
+<ul>
+<li><p>4.7.2.1 专家判断</p>
+</li>
+<li><p>4.7.2.2 数据分析</p>
+</li>
+<li><p>4.7.2.3 会议</p>
+</li>
+</ul>
+<p><strong>4.7.3 结束项目或阶段：输出</strong></p>
+<ul>
+<li><p>4.7.3.1 项目文件更新</p>
+</li>
+<li><p>4.7.3.2 最终产品、服务或成果移交</p>
+</li>
+<li><p>4.7.3.3 最终报告</p>
+</li>
+<li><p>4.7.3.4 组织过程资产更新</p>
+</li>
+</ul>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/0/b/02997655fa2caa19652f19c64d4857782ef2ef6b.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+]]></content>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;PMP-是什么？&quot;&gt;&lt;a href=&quot;#PMP-是什么？&quot; class=&quot;headerlink&quot; title=&quot;PMP 是什么？&quot;&gt;&lt;/a&gt;PMP 是什么？&lt;/h3&gt;&lt;h3 id=&quot;PMP-能做什么？&quot;&gt;&lt;a href=&quot;#PMP-能做什么？&quot; class=&quot;he
+      &lt;p&gt;&lt;strong&gt;参考资料：&lt;/strong&gt; PMBOK P121-P128&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;整合管理 - 收尾过程组&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;
+    
+    </summary>
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/categories/PMP/"/>
+    
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/tags/PMP/"/>
+    
+      <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="整合管理" scheme="https://zjlove0206.github.io/tags/%E6%95%B4%E5%90%88%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4.6 实施整体变更控制</title>
+    <link href="https://zjlove0206.github.io/2019/01/15/4-6%E5%AE%9E%E6%96%BD%E6%95%B4%E4%BD%93%E5%8F%98%E6%9B%B4%E6%8E%A7%E5%88%B6/"/>
+    <id>https://zjlove0206.github.io/2019/01/15/4-6实施整体变更控制/</id>
+    <published>2019-01-15T12:42:25.000Z</published>
+    <updated>2019-01-15T12:51:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>参考资料：</strong> PMBOK P113-P120</p>
+<p><strong>整合管理 - 监控过程组</strong></p>
+<hr>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><strong>实施整体变更控制</strong> 是<code>审查所有变更请求</code>、<code>批准变更</code>，管理对<code>可交付成果</code>、<code>项目文件</code>和<code>项目管理计划</code>的变更，并<code>对变更处理结果进行沟通</code>的过程。</p>
+<h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p><strong>实施整体变更控制的作用：</strong> <code>确保</code>对项目中<code>已记录在案的变更</code>做<code>综合评审</code>。</p>
+<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p><strong>1、变更请求包括<code>项目文件</code>、<code>可交付成果</code>或<code>项目管理计划</code>的变更，并<code>决定处置方案</code></strong></p>
+<p><strong>2、本过程<code>贯穿项目始终</code>，<code>项目经理</code>对此<code>承担最终责任</code></strong></p>
+<p><strong>3、在<code>整个项目生命周期</code>的<code>任何时间</code>，<code>参与项目的任何相关方</code>都可以<code>提变更请求</code></strong></p>
+<p><strong>4、对于<code>影响项目基准的变</code>更，需要<code>CCB和客户</code>共同批准</strong></p>
+<h2 id="ITTO"><a href="#ITTO" class="headerlink" title="ITTO"></a>ITTO</h2><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/f/7/f2a90d3dbb44906f9d4efd9f51843726559b9a87.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/6/2/6e6b67fc63868f136afdb6d303509e3d0e65b8f2.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<p><strong>4.6.1 实施整体变更控制：输入</strong></p>
+<ul>
+<li><p>4.6.1.1 项目管理计划</p>
+</li>
+<li><p>4.6.1.2 项目文件</p>
+</li>
+<li><p>4.6.1.3 工作绩效报告</p>
+</li>
+<li><p>4.6.1.4 变更请求</p>
+</li>
+<li><p>4.6.1.5 事业环境因素</p>
+</li>
+<li><p>4.6.1.6 组织过程资产</p>
+</li>
+</ul>
+<p><strong>4.6.2 实施整体变更控制：工具与技术</strong></p>
+<ul>
+<li><p>4.6.2.1 专家判断</p>
+</li>
+<li><p>4.6.2.2 变更控制工具</p>
+</li>
+<li><p>4.6.2.3 数据分析</p>
+</li>
+<li><p>4.6.2.4 决策</p>
+</li>
+<li><p>4.6.2.5 会议</p>
+</li>
+</ul>
+<p><strong>4.6.3 实施整体变更控制：输出</strong></p>
+<ul>
+<li><p>4.6.3.1 批准的并更请求</p>
+</li>
+<li><p>4.6.3.2 项目管理计划更新</p>
+</li>
+<li><p>4.6.3.3 项目文件更新</p>
+</li>
+</ul>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/3/f/3dcba831335fc16eaf20e3e4ed35eb64f6b2602f.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;参考资料：&lt;/strong&gt; PMBOK P113-P120&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;整合管理 - 监控过程组&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;
+    
+    </summary>
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/categories/PMP/"/>
+    
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/tags/PMP/"/>
+    
+      <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="整合管理" scheme="https://zjlove0206.github.io/tags/%E6%95%B4%E5%90%88%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4.5 监控项目工作</title>
+    <link href="https://zjlove0206.github.io/2019/01/15/4-5%E7%9B%91%E6%8E%A7%E9%A1%B9%E7%9B%AE%E5%B7%A5%E4%BD%9C/"/>
+    <id>https://zjlove0206.github.io/2019/01/15/4-5监控项目工作/</id>
+    <published>2019-01-15T12:41:52.000Z</published>
+    <updated>2019-01-15T12:50:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>参考资料：</strong> PMBOK P105-P113</p>
+<p><strong>整合管理 - 监控过程组</strong></p>
+<hr>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><strong>监控项目工作</strong> 是<code>跟踪</code>、<code>审查</code>和<code>报告整体项目进展</code>，以<code>实现</code>项目管理计划中的<code>绩效目标</code>的过程。</p>
+<h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p><strong>监控项目工作的作用：</strong> 让<code>相关方了解项目的当前状态</code>并认可为处理绩效问题而采取的行动，以及通过成本和进度预测，让相关方<code>了解未来项目状态</code>。</p>
+<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p><strong>1、本过程<code>需要在整个项目期间开展</code></strong></p>
+<p><strong>2、监督<code>贯穿于整个项目的项目管理活动</code>之一【以便推动<code>过程改进</code>】</strong></p>
+<ul>
+<li>收集</li>
+<li>测量</li>
+<li>分析测量结果</li>
+<li>预测趋势</li>
+</ul>
+<p><strong>3、监控项目工作过程重点关注：</strong></p>
+<ul>
+<li>把项目的实际绩效与项目管理计划进行比较</li>
+<li>定期评估项目绩效，决定是否需要采取纠正或预防措施，并推荐必要的措施</li>
+<li>检查单个项目风险的状态</li>
+<li>在整个项目期间，维护一个准确且及时更新的信息库，以反映项目产品及相关文件的情况</li>
+<li>为状态报告、进展测量和预测提供信息</li>
+<li>做出预测，以更新当前的成本与进度信息</li>
+<li>监督已批准变更的实施情况</li>
+<li>如果项目是项目集的一部分，还应向项目集管理层报告项目进展和状态</li>
+<li>确保项目与商业需求保持一致。</li>
+</ul>
+<h2 id="ITTO"><a href="#ITTO" class="headerlink" title="ITTO"></a>ITTO</h2><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/2/9/2c2ca6f8836ecf04bcf72b4a3c1c8997803e3be9.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/e/9/ed65456b528f27906328d97fcfe29b002b573799.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<p><strong>4.5.1 监控项目工作：输入</strong></p>
+<ul>
+<li><p><strong>4.5.1.1 项目管理计划</strong></p>
+</li>
+<li><p><strong>4.5.1.2 项目文件</strong></p>
+<ul>
+<li><p><strong>假设日志：</strong>假设日志包含会影响项目的假设条件和制约因素的信息。</p>
+</li>
+<li><p><strong>估算依据：</strong>估算依据说明不同估算是如何得出的，用于决定如何应对偏差。</p>
+</li>
+<li><p><strong>成本预测：</strong>基于项目以往的绩效，用于确定项目是否仍处于预算的公差区间内，并识别任何必要的变更。</p>
+</li>
+<li><p><strong>问题日志：</strong>用于记录和监督由谁负责在目标日期内解决特定问题。</p>
+</li>
+<li><p><strong>经验教训登记册</strong></p>
+</li>
+<li><p><strong>里程碑清单：</strong>列出特定里程碑的实现日期，用于检查是否达到计划的里程碑。</p>
+</li>
+<li><p><strong>质量报告：</strong>包含质量管理问题，针对过程、项目和产品的改善建议，纠正措施建议，以及在控制质量过程中发现的情况的概述。</p>
+</li>
+<li><p><strong>风险登记册：</strong>提供在项目执行过程中发生的各种威胁和机会的相关信息。</p>
+</li>
+<li><p><strong>风险报告：</strong>提供关于整体项目风险和单个风险的信息。</p>
+</li>
+<li><p><strong>进度预测：</strong>基于项目以往的绩效，用于确定项目是否仍处于进度的公差区间内，并识别任何必要的变更。</p>
+</li>
+</ul>
+</li>
+<li><p><strong>4.5.1.3 工作绩效信息</strong></p>
+<blockquote>
+<p>项目期间通过控制过程收集绩效数据，与计划和其他变量比较，为工作绩效提供背景。</p>
+</blockquote>
+</li>
+<li><p><strong>4.5.1.4 协议</strong></p>
+<blockquote>
+<p>采购协议中包括条款和条件，也可包括其他条目，如买方就卖方应实施的工作或应交付的产品所做的规定。如果项目将部分工作外包出去，项目经理需要监督承包商的工作，确保所有协议都符合项目的特定要求，以及组织的采购政策。</p>
+</blockquote>
+</li>
+<li><p><strong>4.5.1.5 事业环境因素</strong></p>
+</li>
+<li><p><strong>4.5.1.6 组织过程资产</strong></p>
+</li>
+</ul>
+<p><strong>4.5.2 监控项目工作：工具与服务</strong></p>
+<ul>
+<li><p><strong>4.5.2.1 专家判断</strong></p>
+</li>
+<li><p><strong>4.5.2.2 数据分析</strong></p>
+<ul>
+<li><p><strong>备选方案分析：</strong>用于在出现偏差时选择要执行的纠正措施或纠正措施和预防措施的组合。</p>
+<ul>
+<li><strong>备选方案分析来确定最合适的解决方案</strong></li>
+</ul>
+</li>
+<li><p><strong>成本效益分析：</strong>有助于在项目出现偏差时确定最节约成本的纠正措施。</p>
+</li>
+<li><p><strong>挣值分析：</strong>对范围、进度和成本绩效进行了综合分析。</p>
+</li>
+<li><p><strong>根本原因分析：</strong>关注识别问题的主要原因，它可用于识别出现偏差的原因以及项目经理为达成项目目标应重点关注的领域。</p>
+</li>
+<li><p><strong>趋势分析：</strong>根据以往结果预测未来绩效，它可以预测项目的进度延误，提前让项目经理意识到，按照既定趋势发展，后期进度可能出现的问题。根据趋势分析的结果，提出必要的预防措施建议。</p>
+</li>
+<li><p><strong>偏差分析：</strong>通过偏差分析对成本、时间、技术和资源偏差进行综合分析，以了解项目的总体偏差情况。</p>
+<ul>
+<li><strong>单个领域方面的绩效偏差都已经获得解决，而在本过程是从项目的整体角度去考虑问题</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>4.5.2.3 决策</strong></p>
+<ul>
+<li><p><strong>投票：</strong> 一致同意、大多数同意、相对多数同意</p>
+<ul>
+<li><p>a) <strong>一致同意：</strong>获取一致意见（注：有时候一致的意见也可以是不同意）。在第五版中还曾经提及到德尔菲技术，一组预设的专家相互不沟通， 由一个联络员分别与专家进行沟通传递信息，专家通过获得的信息投标经过多轮最终达成一致意见。关键词—背靠背、匿名参与、相互无干扰、相互不沟通等</p>
+</li>
+<li><p>b) <strong>大多数原则：</strong>备选项为两个，要求其中一个获得超过50%的支持。</p>
+</li>
+<li><p>c) <strong>相对多数原则：</strong>备选项≥三个，每一个可能都达不到50%，选择其中相对最多的一个方案。</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>4.5.2.4 会议</strong></p>
+</li>
+</ul>
+<p><strong>4.5.3 监控项目工作：输出</strong></p>
+<ul>
+<li><p><strong>4.5.3.1 工作绩效报告</strong></p>
+<blockquote>
+<p>基于工作绩效信息，以实体或电子形式编制工作绩效报告，以制定决策、采取行动或引起关注。根据项目沟通管理计划，通过沟通过程向项目相关方发送工作绩效报告</p>
+</blockquote>
+<ul>
+<li><strong>对工作绩效信息整合汇编形成，要求内容简单明了方便阅读，项目的关键相关方通过该报告的内容做出一些合理决策</strong></li>
+</ul>
+</li>
+<li><p><strong>4.5.3.2 变更请求</strong></p>
+</li>
+<li><p><strong>4.5.3.3 项目管理计划更新</strong></p>
+</li>
+<li><p><strong>4.5.3.4 项目文件更新</strong></p>
+<ul>
+<li><p><strong>成本预测</strong></p>
+</li>
+<li><p><strong>问题日志</strong></p>
+</li>
+<li><p><strong>经验教训登记册</strong></p>
+</li>
+<li><p><strong>风险登记册</strong></p>
+</li>
+<li><p><strong>进度预测</strong></p>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/b/a/bf2df0e7cdfcc284935573d877aabceb7f04aa3a.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;参考资料：&lt;/strong&gt; PMBOK P105-P113&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;整合管理 - 监控过程组&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;
+    
+    </summary>
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/categories/PMP/"/>
+    
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/tags/PMP/"/>
+    
+      <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="整合管理" scheme="https://zjlove0206.github.io/tags/%E6%95%B4%E5%90%88%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4.4 管理项目知识</title>
+    <link href="https://zjlove0206.github.io/2019/01/15/4-4%E7%AE%A1%E7%90%86%E9%A1%B9%E7%9B%AE%E7%9F%A5%E8%AF%86/"/>
+    <id>https://zjlove0206.github.io/2019/01/15/4-4管理项目知识/</id>
+    <published>2019-01-15T12:41:30.000Z</published>
+    <updated>2019-01-15T12:48:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>参考资料：</strong> PMBOK P98-P105</p>
+<p><strong>整合管理 - 执行过程组</strong></p>
+<hr>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><strong>管理项目知识</strong> 是<code>使用现有知识并生成新知识</code>，<code>以实现项目目标</code>，并且<code>帮助组织学习</code>的过程。</p>
+<h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p><strong>管理项目知识的作用：</strong> 利用<code>已有的组织知识</code>来<code>创造或改建项目成果</code>，并且使<code>当前项目创造的知识</code>可用于<code>支持组织运营</code>和<code>未来项目或阶段</code>。</p>
+<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p><strong>1、本过程<code>需要在整个项目期间开展</code></strong></p>
+<p><strong>2、知识管理指<code>管理显性</code>和<code>隐性</code>知识</strong></p>
+<ul>
+<li><strong>显性知识：</strong> 易使用问题、图片和数字进行编撰的知识</li>
+<li><strong>隐性知识：</strong> 个体知识以及难以明确表达的知识【信念、经验或诀窍等】</li>
+</ul>
+<p><strong>3、知识管理旨在<code>重复使用现有知识</code>并<code>生成新知识</code></strong> 【达成目的关键活动】</p>
+<ul>
+<li>知识分享</li>
+<li>知识集成</li>
+</ul>
+<p><strong>4、知识管理最重要的就是<code>营造一种相互信任的氛围</code>，<code>激励人分享</code>或<code>关注他人</code>知识</strong></p>
+<h2 id="ITTO"><a href="#ITTO" class="headerlink" title="ITTO"></a>ITTO</h2><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/a/8/af0a8e92ef31e080c1345e07121a7f9158caf288.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/1/7/160594d3f48634fafe78702ad872297272dbf837.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<p><strong>4.4.1 管理项目知识：输入</strong></p>
+<ul>
+<li><p><strong>4.4.1.1 项目管理计划</strong></p>
+<ul>
+<li><strong>所有文件</strong></li>
+</ul>
+</li>
+<li><p><strong>4.4.1.2 项目文件</strong></p>
+<ul>
+<li><p><strong>经验教训登记册：</strong>经验教训登记册提供了有效的知识管理实践。</p>
+</li>
+<li><p><strong>项目团队派工单：</strong>项目团队派工单说明了项目已具有的能力和经验以及可能缺乏的知识。</p>
+</li>
+<li><p><strong>资源分解结构：</strong>资源分解结构包含有关团队组成的信息，有助于了解团队拥有和缺乏的知识。</p>
+</li>
+<li><p><strong>相关方登记册：</strong>相关方登记册包含已识别的相关方的详细情况，有助于了解他们可能拥有的知识。</p>
+</li>
+</ul>
+</li>
+<li><p><strong>4.4.1.3 可交付成果</strong></p>
+<blockquote>
+<p>它通常是为实现项目目标而完成的有形的组成部分，并可包括项目管理计划的组成部分</p>
+</blockquote>
+</li>
+<li><p><strong>4.4.1.4 事业环境因素</strong></p>
+</li>
+<li><p><strong>4.4.1.5 组织过程资产</strong></p>
+</li>
+</ul>
+<p><strong>4.4.2 管理项目知识：工具与技术</strong></p>
+<ul>
+<li><p><strong>4.4.2.1 专家判断</strong></p>
+</li>
+<li><p><strong>4.4.2.2 知识管理</strong></p>
+<blockquote>
+<p>知识管理工具和技术将员工联系起来，使他们能够合作生成新知识、分享隐性知识，以及集成不同团队成员所拥有的知识。</p>
+</blockquote>
+<ul>
+<li><strong>让团队成员愿意去分享自己的经验教训</strong></li>
+</ul>
+</li>
+<li><p><strong>4.4.2.3 信息管理</strong></p>
+<blockquote>
+<p>信息管理工具和技术用于创建人们与知识之间的联系，可以有效促进简单、明确的显性知识的分享</p>
+</blockquote>
+<ul>
+<li><strong>将收集到的经验教训如何去存储以便将来可以使用</strong></li>
+</ul>
+</li>
+<li><p><strong>4.4.2.4 人际关系与团队技能</strong></p>
+<ul>
+<li><p><strong>积极倾听：</strong>积极倾听有助于减少误解并促进沟通和知识分享</p>
+</li>
+<li><p><strong>引导：有助于有效指引团队成功地达成决定、解决方案或结论</strong></p>
+</li>
+<li><p><strong>领导力：可帮助沟通愿景并鼓舞项目团队关注合适的知识和知识目标</strong></p>
+</li>
+<li><p><strong>人际交往：</strong>促使项目相关方之间建立非正式的联系和关系，为显性和隐性知识的分享创造条件</p>
+</li>
+<li><p><strong>政治意识：</strong>有助于项目经理根据项目环境和组织的政治环境规划沟通</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>4.4.3 管理项目知识：输出</strong></p>
+<ul>
+<li><p><strong>4.4.3.1 经验教训登记册</strong></p>
+<blockquote>
+<p>经验教训登记册可以包含情况的类别和描述，经验教训登记册还可包括与情况相关的影响、建议和行动方案。经验教训登记册可以记录遇到的挑战、问题、意识到的风险和机会，或其他适用的内容。经验教训登记册在项目早期创建，作为本过程的输出。因此，在整个项目期间，它可以作为很多过程的输入，也可以作为输出而不断更新。参与工作的个人和团队也参与记录经验教训。可以通过视频、图片、音频或其他合适的方式记录知识，确保有效吸取经验教训。在项目或阶段结束时，把相关信息归入经验教训知识库，成为组织过程资产的一部分。</p>
+</blockquote>
+</li>
+<li><p><strong>4.4.3.2 项目管理计划更新</strong></p>
+</li>
+<li><p><strong>4.4.3.3 组织过程资产更新</strong></p>
+</li>
+</ul>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/8/2/8b671b4e86ebd096b07a388400cda300c5f8f7d2.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;参考资料：&lt;/strong&gt; PMBOK P98-P105&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;整合管理 - 执行过程组&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定
+    
+    </summary>
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/categories/PMP/"/>
+    
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/tags/PMP/"/>
+    
+      <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="整合管理" scheme="https://zjlove0206.github.io/tags/%E6%95%B4%E5%90%88%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4.3 指导与管理项目工作</title>
+    <link href="https://zjlove0206.github.io/2019/01/15/4-3%E6%8C%87%E5%AF%BC%E4%B8%8E%E7%AE%A1%E7%90%86%E9%A1%B9%E7%9B%AE%E5%B7%A5%E4%BD%9C/"/>
+    <id>https://zjlove0206.github.io/2019/01/15/4-3指导与管理项目工作/</id>
+    <published>2019-01-15T12:40:59.000Z</published>
+    <updated>2019-01-15T12:48:40.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>参考资料：</strong> PMBOK P90-P97</p>
+<p><strong>整合管理 - 执行过程组</strong></p>
+<hr>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><strong>指导与管理项目工作</strong> 是<code>为实现项目目标</code>而<code>领导</code>和<code>执行</code>项目管理计划中所确定的工作，并<code>实现已批准变更的过程</code>。</p>
+<h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p><strong>指导与管理项目工作的作用：</strong> 对<code>项目工作</code>和<code>可交付成果开展综合管理</code>，以<code>提高项目成功的可能性</code>。</p>
+<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p><strong>1、本过程<code>需要在整个项目期间开展</code></strong></p>
+<p><strong>2、<code>分配可用资源并管理其有效使用</code>，也需要执行因分析工作绩效数据和信息而提出的项目计划变更</strong></p>
+<h2 id="ITTO"><a href="#ITTO" class="headerlink" title="ITTO"></a>ITTO</h2>{% image http://inner.imoxiu.cn/apidoc/imageUpload/9/6/9f639c0ab57474f275cd0251119fc911fd80f286.png '' '' %}
+{% image http://inner.imoxiu.cn/apidoc/imageUpload/e/f/e6f35dc74d03071d7d26f92f557aaf1472f7ee8f.png '' '' %}
+<p><strong>4.3.1 指导与管理项目工作：输入</strong></p>
+<ul>
+<li><p><strong>4.3.1.1 项目管理计划</strong></p>
+</li>
+<li><p><strong>4.3.1.2 项目文件</strong></p>
+<ul>
+<li><p><strong>变更日志：</strong>变更日志记录所有变更请求的状态。</p>
+<ul>
+<li><strong>在本过程实施了批准的变更请求后更新状态为—已实施</strong></li>
+</ul>
+</li>
+<li><p><strong>经验教训登记册：</strong>经验教训用于改进项目绩效，以免重犯错误。登记册有助于确定针对哪些方面设定规则或指南，以使团队行动保持一致。</p>
+<ul>
+<li><strong>最常见作用就是早期总结的经验教训后期使用</strong></li>
+</ul>
+</li>
+<li><p><strong>里程碑清单：</strong>里程碑清单列出特定里程碑的计划实现日期。</p>
+<ul>
+<li><strong>一般测量项目绩效的节点都选择里程碑点（选择性或强制性）</strong></li>
+</ul>
+</li>
+<li><p><strong>项目沟通记录：</strong>项目沟通记录包含绩效报告、可交付成果的状态，以及项目生成的其他信息。</p>
+<ul>
+<li><strong>在提出变更请求时需要根据项目的绩效情况，在沟通记录中去查找</strong></li>
+</ul>
+</li>
+<li><p><strong>项目进度计划：</strong>进度计划至少包含工作活动清单、持续时间、资源，以及计划的开始与完成日期。</p>
+<ul>
+<li><strong>实际工作与计划做对比，来判断是否需要提出变更请求</strong></li>
+</ul>
+</li>
+<li><p><strong>需求跟踪矩阵：</strong>需求跟踪矩阵把产品需求连接到相应的可交付成果，有助于把关注点放在最终结果上。</p>
+<ul>
+<li>原则上需求跟踪矩阵都使用在监控过程组，在这个过程中起到的作用也可以理解为完成过程或最终可交付成果的同时去实时记录需求的完成情况，及时更新状态。</li>
+</ul>
+</li>
+<li><p><strong>风险登记册：</strong>风险登记册提供可能影响项目执行的各种威胁和机会的信息。</p>
+</li>
+<li><p><strong>风险报告：</strong>风险报告提供关于整体项目风险来源的信息，以及关于已识别单个项目风险的概括信息。</p>
+</li>
+</ul>
+</li>
+<li><p><strong>4.3.1.3 批准的变更请求</strong></p>
+<blockquote>
+<p>批准的变更请求是实施整体变更控制过程的输出，包括经项目经理审查和批准的变更请求，必要时可经变更控制委员会 (CCB) 审查和批准。批准的变更请求可能是纠正措施、预防措施或缺陷补救，并由项目团队纳入项目进度计划付诸实施，可能对项目或项目管理计划的任一领域产生影响，还可能导致修改正式受控的项目管理计划组件或项目文件。</p>
+</blockquote>
+</li>
+<li><p><strong>4.3.1.4 事业环境因素</strong></p>
+</li>
+<li><p><strong>4.3.1.5 组织过程资产</strong></p>
+</li>
+</ul>
+<p><strong>4.3.2 指导与管理项目工作：工具与技术</strong></p>
+<ul>
+<li><p><strong>4.3.2.1 专家判断</strong></p>
+</li>
+<li><p><strong>4.3.2.2 项目信息管理系统(PMIS)</strong></p>
+<blockquote>
+<p>自动收集和报告关键绩效指标（KPI）可以是本系统的一项功能。</p>
+</blockquote>
+<ul>
+<li><strong>比如问项目经理在管理大型复杂项目时，应使用什么工具？就应该首先考虑PMIS。</strong></li>
+</ul>
+</li>
+<li><p><strong>4.3.2.3 会议</strong></p>
+</li>
+</ul>
+<p><strong>4.3.3 指导与管理项目工作：输出</strong></p>
+<ul>
+<li><p><strong>4.3.3.1 可交付成果</strong></p>
+<blockquote>
+<p>在某一过程、阶段或项目完成时，必须产出的任何独特并可核实的产品、成果或服务能力。它通常是项目结果，并可包括项目管理计划的组成部分。</p>
+</blockquote>
+<ul>
+<li><strong>该过程输出的可交付成果可以是过程的也可以是最终的，根据实际时间节点确定</strong></li>
+</ul>
+</li>
+<li><p><strong>4.3.3.2 工作绩效数据</strong></p>
+<blockquote>
+<p>在执行项目工作的过程中，从每个正在执行的活动中收集到的原始观察结果和测量值。</p>
+</blockquote>
+<ul>
+<li><strong>工作绩效数据包括已完成的工作、关键绩效指标 (KPI)、技术绩效测量结果、进度活动的实际开始日期和完成日期、已完成的故事点、可交付成果状态、进度进展情况、变更请求的数量、缺陷的数量、实际发生的成本、实际持续时间等。</strong></li>
+</ul>
+</li>
+<li><p><strong>4.3.3.3 问题日志</strong></p>
+<blockquote>
+<p>一种记录和跟进所有问题的项目文件</p>
+</blockquote>
+<ul>
+<li><p><strong>所需记录和跟进的内容可能包括：问题类型、问题提出者和提出时间、问题描述、问题优先级、由谁负责解决问题、目标解决日期、问题状态、最终解决情况。</strong></p>
+<ul>
+<li><strong><code>需要注意解决问题的时候第一步是对于问题的定义，一定要达成共识方可进行分析。遇到了问题首选记录在问题日志中方便跟踪和解决</code></strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>4.3.3.4 变更请求</strong></p>
+<blockquote>
+<p>关于修改任何文件、可交付成果或基准的正式提议。四种解决形式：</p>
+</blockquote>
+<ul>
+<li><p><strong>纠正措施：</strong>为使项目工作绩效重新与项目管理计划一致，而进行的有目的的活动。</p>
+<ul>
+<li><strong>使用情景—<code>当前项目已经出现偏差</code>，而且当前偏差已经超过允许偏差，需要马上去解决绩效问题，以保证绩效符合计划</strong></li>
+</ul>
+</li>
+<li><p><strong>预防措施：</strong>为确保项目工作的未来绩效符合项目管理计划，而进行的有目的的活动。</p>
+<ul>
+<li><strong>使用情景—<code>当前项目已经出现偏差</code>，而且当前偏差尚未超出允许偏差，但是经过预测在项目完成之前会超出允许偏差，为了降低变更代价，需要马上去提出预防来解决，以保证未来绩效符合计划。</strong></li>
+</ul>
+</li>
+<li><p><strong>缺陷补救：</strong>为了修正不一致产品或产品组件的有目的的活动。</p>
+<ul>
+<li><strong>使用情景—<code>通常默认针对可交付成果质量问题</code></strong></li>
+</ul>
+</li>
+<li><p><strong>更新：</strong>对正式受控的项目文件或计划等进行的变更，以反映修改或增加的意见或内容。</p>
+<ul>
+<li><strong>通常都是针对受控文件，所以<code>一般更新都涉及基准，需要CCB审批</code></strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>4.3.3.5 项目管理计划更新</strong></p>
+<ul>
+<li><strong>任何组件</strong></li>
+</ul>
+</li>
+<li><p><strong>4.3.3.6 项目文件更新</strong></p>
+<ul>
+<li><p><strong>活动清单</strong></p>
+</li>
+<li><p><strong>假设日志</strong></p>
+</li>
+<li><p><strong>经验教训登记册</strong></p>
+</li>
+<li><p><strong>需求文件</strong></p>
+</li>
+<li><p><strong>风险登记册</strong></p>
+</li>
+<li><p><strong>相关方登记册</strong></p>
+</li>
+</ul>
+</li>
+<li><p><strong>4.3.3.7 组织过程资产更新</strong></p>
+</li>
+</ul>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/f/f/f3a12c46b919410e61c07ec0c77337572973227f.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<h2 id="重点剖析"><a href="#重点剖析" class="headerlink" title="重点剖析"></a>重点剖析</h2><p><strong>变更请求的四种形式：</strong></p>
+<ul>
+<li><p><strong>纠正措施</strong></p>
+</li>
+<li><p><strong>预防措施</strong></p>
+</li>
+<li><p><strong>缺陷补救</strong></p>
+</li>
+<li><p><strong>更新</strong></p>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;参考资料：&lt;/strong&gt; PMBOK P90-P97&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;整合管理 - 执行过程组&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义
+    
+    </summary>
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/categories/PMP/"/>
+    
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/tags/PMP/"/>
+    
+      <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="整合管理" scheme="https://zjlove0206.github.io/tags/%E6%95%B4%E5%90%88%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4.2 制定项目管理计划</title>
+    <link href="https://zjlove0206.github.io/2019/01/15/4-2%E5%88%B6%E5%AE%9A%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92/"/>
+    <id>https://zjlove0206.github.io/2019/01/15/4-2制定项目管理计划/</id>
+    <published>2019-01-15T12:40:43.000Z</published>
+    <updated>2019-01-15T12:45:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>参考资料：</strong> PMBOK P82-P89</p>
+<p><strong>整合管理 - 规划过程组</strong></p>
+<hr>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><strong>制定项目管理计划</strong> 是<code>定义</code>、<code>准备</code>和<code>协调</code>项目计划的<code>所有组成部分</code>，并把他们<code>整合一份综合项目管理计划</code>的过程。</p>
+<h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p><strong>制定项目管理计划的作用：</strong> <code>生成一份综合文件</code>，用于<code>确定所有项目工作</code>的<code>基础及其执行方式</code></p>
+<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p><strong>1、<code>仅开展一次</code>或<code>仅在项目的预定义点开展</code></strong></p>
+<p><strong>2、项目管理计划<code>确定项目的执行</code>、<code>监控</code>和<code>收尾方式</code></strong></p>
+<p><strong>3、项目管理计划<code>应基准化</code>，即至少应规定项目的<code>范围、时间和成本</code>方面基准</strong></p>
+<p><strong>4、如果项目隶属于项目集或者更高，其计划应该与其一致</strong></p>
+<h2 id="ITTO"><a href="#ITTO" class="headerlink" title="ITTO"></a>ITTO</h2><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/d/3/dc1b8194dae25cbc620ec5effc403bfdb333c943.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/6/b/6857b78147b012c45a786d35ee6ceab1875f1e8b.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<p><strong>4.2.1 制定项目管理计划：输入</strong></p>
+<ul>
+<li><p>4.2.1.1 项目章程</p>
+<blockquote>
+<p>制定第一版项目管理计划时使用，提供高层级项目信息</p>
+</blockquote>
+</li>
+<li><p>4.2.1.2 其他过程的输出</p>
+<blockquote>
+<p>通过其他知识领域的过程输出的子计划和基准</p>
+</blockquote>
+</li>
+<li><p>4.2.1.3 事业环境因素</p>
+</li>
+<li><p>4.2.1.4 组织过程资产</p>
+</li>
+</ul>
+<p><strong>4.2.2 制定项目管理计划：工具与计划</strong></p>
+<ul>
+<li><p>4.2.2.1 专家判断</p>
+</li>
+<li><p>4.2.2.2 数据收集</p>
+<ul>
+<li><p><strong>头脑风暴：</strong>制定项目管理计划时，经常以头脑风暴的形式来收集关于项目方法的创意和解决方案。参会者包括项目团队成员，其他主题专家 (SME) 或相关方也可以参与。</p>
+</li>
+<li><p><strong>核对单：</strong>很多组织基于自身经验制定了标准化的核对单，或者采用所在行业的核对单。核对单可以指导项目经理制定计划或帮助检查项目管理计划是否包含所需全部信息。</p>
+</li>
+<li><p><strong>焦点小组：</strong>焦点小组召集相关方讨论项目管理方法以及项目管理计划各个组成部分的整合方式。</p>
+</li>
+<li><p><strong>访谈：</strong>访谈用于从相关方获取特定信息，用以制定项目管理计划、任何子计划或项目文件。</p>
+</li>
+</ul>
+</li>
+<li><p>4.2.2.3 人际关系与团队技能</p>
+<ul>
+<li><p><strong>冲突管理：</strong>必要时可以通过冲突管理让具有差异性的相关方就项目管理计划的所有方面达成共识。</p>
+</li>
+<li><p><strong>引导：</strong>引导者确保参与者有效参与，互相理解，考虑所有意见，按既定决策流程全力支持得到的结论或结果。</p>
+</li>
+<li><p><strong>会议管理：</strong>有必要采用会议管理来确保有效召开多次会议，以便制定、统一和商定项目管理计划</p>
+</li>
+</ul>
+</li>
+<li><p>4.2.2.4 会议</p>
+</li>
+</ul>
+<p><strong>4.2.3 制定项目管理计划：输出</strong></p>
+<ul>
+<li>4.2.3.1 项目管理计划</li>
+</ul>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/0/6/03b1fe3ba604856aad15d369d2dc886ec7815726.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/8/5/85012bb80a11c039af7896f123ed208244206625.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<h2 id="重点剖析"><a href="#重点剖析" class="headerlink" title="重点剖析"></a>重点剖析</h2><p><strong>一、该过程主要工作分为三个部分——定义、收集、整合</strong></p>
+<blockquote>
+<p>具体也体现为我们常说的“总—分—总”模式，也就是：</p>
+</blockquote>
+<ul>
+<li><p><strong>第一步，先根据项目章程的内容制定第一版的项目管理计划</strong></p>
+</li>
+<li><p><strong>第二步，根据第一版的项目管理计划去制定子计划和基准、其他组件</strong></p>
+</li>
+<li><p><strong>第三步，整合子计划、基准和其他组件形成可以指导实际工作的项目管理计划</strong></p>
+</li>
+</ul>
+<p><strong>二、项目管理计划由谁编制？</strong></p>
+<blockquote>
+<p>项目经理/项目团队。</p>
+</blockquote>
+<ul>
+<li><strong>不过在项目团队编制项目管理计划过程中需要不断去与职能经理确认，以获得职能经理的支持和认同</strong></li>
+</ul>
+<p><strong>三、项目管理计划由谁审批批准？</strong></p>
+<blockquote>
+<p>关键相关方审批批准。</p>
+</blockquote>
+<ul>
+<li><strong>在批准之前的项目管理计划可以不需要变更流程进行更新，但是一旦项目管理计划获得审批批准后必须提出变更请求获得变更控制委员会（CCB）审批批准后方可更新。</strong></li>
+</ul>
+<p><strong>四、开踢会（kick-off meeting）</strong></p>
+<blockquote>
+<p>也称为开工会</p>
+</blockquote>
+<ul>
+<li><strong>通常在关键相关方批准项目管理计划之后召开（也可以说是在规划过程组后执行过程组前），在会上强调项目目标和计划，通过简单宣读计划来获得项目相关方的支持。注：在实际的PMP®考试中，kick-off meeting经常被翻译成启动会，所以看到中文启动会请首先去看一眼英文单词以确定到底是启动会还是开踢会。</strong></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;参考资料：&lt;/strong&gt; PMBOK P82-P89&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;整合管理 - 规划过程组&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义
+    
+    </summary>
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/categories/PMP/"/>
+    
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/tags/PMP/"/>
+    
+      <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="整合管理" scheme="https://zjlove0206.github.io/tags/%E6%95%B4%E5%90%88%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4.1 制定项目章程</title>
+    <link href="https://zjlove0206.github.io/2019/01/15/4-1%E5%88%B6%E5%AE%9A%E9%A1%B9%E7%9B%AE%E7%AB%A0%E7%A8%8B/"/>
+    <id>https://zjlove0206.github.io/2019/01/15/4-1制定项目章程/</id>
+    <published>2019-01-15T12:36:36.000Z</published>
+    <updated>2019-01-15T12:42:53.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>参考资料：</strong> PMBOK P75-P81</p>
+<p><strong>整合管理 - 启动过程组</strong></p>
+<hr>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><strong>制定项目章程</strong> 是编写一份<code>正式批准项目</code>并<code>授权项目经理</code>在<code>项目活动中使用组织资源</code>的文件的过程。</p>
+<h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p><strong>制定章程的作用：</strong> 明确<code>项目与组织战略目标之间的直接联系</code>，<code>确立项目的正式地位</code>，并展示<code>组织对项目的承诺</code>。</p>
+<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p><strong>1、本过程<code>仅开展一次</code>或<code>仅在项目的预定义点开展</code></strong></p>
+<p><strong>2、项目章程<code>一旦被批准</code>，就<code>标志着项目的正式启动</code></strong></p>
+<p><strong>3、项目章程可<code>由发起人编制</code>，或者<code>由项目经理与发起机构合作编制</code></strong></p>
+<p><strong>4、项目由项目以外的机构来启动</strong></p>
+<ul>
+<li>【如发起人、项目集或PMO、项目组合治理委员会或其授权代表】</li>
+</ul>
+<p><strong>5、通过项目章程来确认项目<code>符合组织战略</code>和<code>日常运营的需要</code></strong></p>
+<p><strong>6、<code>项目章程不是合同</code>【未涉及承诺报酬或金钱用于交换的代价】</strong></p>
+<h2 id="ITTO"><a href="#ITTO" class="headerlink" title="ITTO"></a>ITTO</h2><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/0/b/04abe18d3861f322bcd93ef35f9b89c973ad711b.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/8/2/895be678602d058ef20e5bb45fdc227a926180e2.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<p><strong>4.1.1 制定项目章程：输入</strong></p>
+<ul>
+<li><p>4.1.1.1 商业文件</p>
+<ul>
+<li><p><strong>商业论证：</strong>一般情况下，商业论证会包含商业需求（强调启动项目的原因）和成本效益分析（确定项目是否值得投资），以论证项目的合理性并确定项目边界（没有项目边界无法做出相对准确的投入和产出）。商业论证通常由商业分析师完成，由项目发起人提供给项目经理，项目经理可以对于商业论证的内容提出建议。</p>
+</li>
+<li><p><strong>效益管理计划：</strong>对创造、提高和保持项目效益的过程进行定义的书面文件。该文件同样产生于项目启动之前，所以并不是由项目经理或项目团队编写，而是由发起人提供。因为有些项目的收益并不只是通过项目本身实现，而是通过相关运营或其他项目实现。</p>
+</li>
+</ul>
+</li>
+<li><p>4.1.1.2 协议</p>
+<blockquote>
+<p>协议用于定义启动项目的初衷。协议有多种形式，包括合同、谅解备忘录（MOUs）、服务水平协议（SLA）、协议书、意向书、口头协议、电子邮件或其他书面协议。</p>
+</blockquote>
+<ul>
+<li><strong>重点记忆两种协议的形式—意向书和合同</strong></li>
+</ul>
+</li>
+<li><p>4.1.1.3 事业环境因素</p>
+</li>
+<li><p>4.1.1.4 组织过程资产</p>
+</li>
+</ul>
+<p><strong>4.1.2 制定项目章程：工具与技术</strong></p>
+<ul>
+<li><p>4.1.2.1 专家判断</p>
+</li>
+<li><p>4.1.2.2 数据收集</p>
+<ul>
+<li><p><strong>头脑风暴：</strong>需要引导者进行引导（避免过于发散导致跑题），分为两个部分—创意产生和创意分析。</p>
+<ul>
+<li><strong>制定项目章程时，主要是由发起人或项目经理引导关键相关方提供其对于项目的高层级需求和期望</strong></li>
+</ul>
+</li>
+<li><p><strong>焦点小组：</strong>召集相关方和主题专家讨论项目风险、成功标准和其他议题，比一对一访谈更有利于互动交流。</p>
+<ul>
+<li><strong>焦点小组关注于相同立场的意见（可以理解为分别与甲方、乙方的关键相关方去沟通了解信息）</strong></li>
+</ul>
+</li>
+<li><p><strong>访谈：</strong>通过与关键相关方直接交谈来了解高层级需求、假设条件、制约因素、审批标准以及其他信息。</p>
+</li>
+</ul>
+</li>
+<li><p>4.1.2.3 人际关系与团队技能</p>
+<ul>
+<li><p><strong>冲突管理</strong></p>
+</li>
+<li><p><strong>引导：</strong>引导是指有效引导团队活动成功以达成决定、解决方案或结论的能力。引导者确保参与者有效参与，互相理解，考虑所有意见，按既定决策流程全力支持得到的结论或结果，以及所达成的行动计划和协议在之后得到合理执行。</p>
+<ul>
+<li><strong>引导可以理解为将焦点小组收集到的意见，在这里达成共识</strong></li>
+</ul>
+</li>
+<li><p><strong>会议管理：</strong>会议管理包括准备议程、确保邀请每个关键相关方群体的代表，以及准备和发送后续的会议纪要和行动计划。</p>
+<ul>
+<li><strong>强调议程有助于保证会议的有效性</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>4.1.2.4 会议</p>
+</li>
+</ul>
+<p><strong>4.1.3 制定项目章程：输出</strong></p>
+<ul>
+<li><p>4.1.3.1 项目章程</p>
+<blockquote>
+<p>出现高层级（high level）内容首选项目章程</p>
+</blockquote>
+<ul>
+<li><p><strong>项目章程包括的内容：</strong></p>
+<ul>
+<li><p><strong>项目目的</strong></p>
+</li>
+<li><p><strong>可测量的项目目标和相关的成功标准</strong></p>
+</li>
+<li><p><strong><code>高层级需求</code></strong></p>
+</li>
+<li><p><strong><code>高层级项目描述、边界定义以及主要可交付成果</code></strong></p>
+</li>
+<li><p><strong>整体项目风险</strong></p>
+</li>
+<li><p><strong>总体里程碑进度计划</strong></p>
+</li>
+<li><p><strong>预先批准的财务资源</strong></p>
+</li>
+<li><p><strong>关键相关方名单</strong></p>
+</li>
+<li><p><strong>项目审批要求</strong></p>
+<ul>
+<li><strong>例如，用什么标准评价项目成功，由谁对项目成功下结论，由谁来签署项目结束</strong></li>
+</ul>
+</li>
+<li><p><strong>项目退出标准（例如，在何种条件下才能关闭或取消项目或阶段）</strong></p>
+</li>
+<li><p><strong>委派的项目经理及其职责和职权</strong></p>
+</li>
+<li><p><strong>发起人或其他批准项目章程的人员的姓名和职权</strong></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>4.1.3.2 假设日志</p>
+<ul>
+<li><p><strong>假设条件：</strong>默认是正确、真实的信息</p>
+</li>
+<li><p><strong>制约因素：</strong>限制因素</p>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/d/f/d6c556ad26dbd00aa53bbdee9e7091e7e87f1f9f.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<h2 id="重点剖析"><a href="#重点剖析" class="headerlink" title="重点剖析"></a>重点剖析</h2><p><strong>一、项目章程在项目中的三个作用：</strong></p>
+<ul>
+<li><p><strong>1、标志着项目的正式开始/启动</strong></p>
+</li>
+<li><p><strong>2、任命项目经理（确定项目经理的正式地位）</strong></p>
+</li>
+<li><p><strong>3、授权项目经理使用组织资源来完成项目工作</strong></p>
+</li>
+</ul>
+<p><strong>二、项目章程的编制：原则上项目章程应该由项目发起人来编制并批准发布</strong></p>
+<p><strong><em>如果发起人没有提供项目章程，要求项目经理开始规划工作，问PM应该怎么办？</em></strong></p>
+<ul>
+<li><p>1、强调项目章程的重要性</p>
+</li>
+<li><p>2、PM编写项目章程</p>
+</li>
+<li><p>3、发起人签字，发布</p>
+</li>
+</ul>
+<p><strong>三、启动会（ Initial meeting）</strong></p>
+<ul>
+<li><strong>启动会通常在发起人审批批准项目章程后召开（可以理解为在启动过程组后、规划过程组前召开），启动会上强调项目的目标，介绍项目经理，宣读项目章程，通过启动会来获取关键相关方对项目的支持</strong></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;参考资料：&lt;/strong&gt; PMBOK P75-P81&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;整合管理 - 启动过程组&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义
+    
+    </summary>
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/categories/PMP/"/>
+    
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/tags/PMP/"/>
+    
+      <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="整合管理" scheme="https://zjlove0206.github.io/tags/%E6%95%B4%E5%90%88%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>项目相关方管理</title>
+    <link href="https://zjlove0206.github.io/2019/01/11/%E7%AC%AC13%E7%AB%A0%20%E9%A1%B9%E7%9B%AE%E7%9B%B8%E5%85%B3%E6%96%B9%E7%AE%A1%E7%90%86/"/>
+    <id>https://zjlove0206.github.io/2019/01/11/第13章 项目相关方管理/</id>
+    <published>2019-01-11T12:17:13.000Z</published>
+    <updated>2019-01-15T12:34:19.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>素材来源：</strong> PMBOK P503-P506</p>
+<hr>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><strong>项目相关方管理</strong> 包括用于开展下列工作的各个过程：<strong><em>识别</em></strong> 能够影响项目或会受项目影响的人员、团队或组织，<strong><em>分析</em></strong> 相关方对项目的期望和影响，制定合适的 <strong><em>管理</em></strong> 策略来有效调动相关方参与项目来决策和执行。</p>
+<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p><strong><code>识别</code>：</strong> 识别能够影响项目或会受项目影响的人、团队或组织。【识别相关方】</p>
+<p><strong><code>分析</code>：</strong> 相关方对项目的期望和影响。【规划相关方参与】</p>
+<p><strong><code>管理</code>：</strong> 制定策略来有效调动相关方参与项目来决策和执行。【管理相关方参与】</p>
+<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p><strong>1、每个项目都会有相关方【干系人 - 第五版称】，与项目的关联关系有且仅有</strong></p>
+<ul>
+<li>a、被动型，会受到项目的积极或消极的影响</li>
+<li>b、主动型，对项目施加积极或消极的影响</li>
+</ul>
+<p><strong>2、今早开始识别相关方并引导相关方参与应在：</strong></p>
+<ul>
+<li>项目章程被批准、项目经理被委任，以及团队开始组建之后开始~</li>
+</ul>
+<p><strong>3、<code>相关方满意</code>度应作为项目目标</strong> 加以识别和管理</p>
+<p><strong>4、识别相关方和引导相关方参与的过程<code>需要迭代开展</code> ，节点含括不限于:</strong></p>
+<ul>
+<li>a、项目进入其生命周期的不同阶段</li>
+<li>b、当前相关方不在与项目工作有关，或者在项目的相关方社区中出现了新的相关方成员</li>
+<li>c、组织内部或更大区域的相关方社区发生重大变化</li>
+</ul>
+<p><strong>5、适应型团队对相关方管理采用共创的理念，敏捷性方法提倡高度透明</strong></p>
+<h2 id="趋势"><a href="#趋势" class="headerlink" title="趋势"></a>趋势</h2><p><strong>相关方一词：</strong> 目前定义比较广泛，凡是与项目利益有关，有可能对项目施加影响的一类人群。范围正在外延扩大。【内部、外部相关方】</p>
+<p><strong>项目相关方管理的发展趋势和新兴实践，包括：</strong></p>
+<ul>
+<li>1、识别所有相关方，而非在限定范围内【<code>扩大识别范围</code>】</li>
+<li>2、确保所有团队成员都涉及引导相关方参与的活动</li>
+<li>3、定期审查相关方社区，经常与项目风险审查并行开展</li>
+<li>4、“共创” 概念，视相关方为合作伙伴，共赢</li>
+<li>5、时刻关注与相关方有效参与程度有关的正面及负面价值</li>
+</ul>
+<h2 id="裁剪"><a href="#裁剪" class="headerlink" title="裁剪"></a>裁剪</h2><p><strong>由于每个<code>项目都是独特的</code>，所以项目经理可能需要<code>裁剪项目县官方管理过程</code>。</strong></p>
+<p><strong>裁剪考虑的因素含括，但不限于：</strong></p>
+<ul>
+<li><p><strong>1、相关方的多样性</strong></p>
+<p>   <code>相关方人数</code> <code>文化</code> <code>地域等</code></p>
+</li>
+<li><p><strong>2、相关方关系的复杂性</strong></p>
+</li>
+<li><p><strong>3、沟通技术</strong></p>
+</li>
+</ul>
+<h2 id="子过程"><a href="#子过程" class="headerlink" title="子过程"></a>子过程</h2><p><strong>13.1 识别相关方 <code>启动</code></strong></p>
+<p><strong>13.2 规划相关方参与 <code>规划</code></strong></p>
+<p><strong>13.3 管理相关方参与 <code>执行</code></strong></p>
+<p><strong>13.4 监督相关方参与 <code>监控</code></strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;素材来源：&lt;/strong&gt; PMBOK P503-P506&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;项目相关方管理&lt;/st
+    
+    </summary>
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/categories/PMP/"/>
+    
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/tags/PMP/"/>
+    
+      <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="相关方管理" scheme="https://zjlove0206.github.io/tags/%E7%9B%B8%E5%85%B3%E6%96%B9%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>项目采购管理</title>
+    <link href="https://zjlove0206.github.io/2019/01/11/%E7%AC%AC12%E7%AB%A0%20%E9%A1%B9%E7%9B%AE%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/"/>
+    <id>https://zjlove0206.github.io/2019/01/11/第12章 项目采购管理/</id>
+    <published>2019-01-11T12:17:07.000Z</published>
+    <updated>2019-01-15T12:33:07.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>太不好意思，漏掉了一章</strong></p>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><h2 id="子过程"><a href="#子过程" class="headerlink" title="子过程"></a>子过程</h2><p><strong>12.1 规划采购管理 <code>规划</code></strong></p>
+<p><strong>12.2 管理采购 <code>执行</code></strong></p>
+<p><strong>12.3 控制采购 <code>监控</code></strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;太不好意思，漏掉了一章&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;h2 id=&quot;功能&quot;&gt;&lt;a href=&quot;#功能&quot; class=&quot;head
+    
+    </summary>
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/categories/PMP/"/>
+    
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/tags/PMP/"/>
+    
+      <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="采购管理" scheme="https://zjlove0206.github.io/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>项目风险管理</title>
+    <link href="https://zjlove0206.github.io/2019/01/11/%E7%AC%AC11%E7%AB%A0%20%E9%A1%B9%E7%9B%AE%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86/"/>
+    <id>https://zjlove0206.github.io/2019/01/11/第11章 项目风险管理/</id>
+    <published>2019-01-11T12:16:56.000Z</published>
+    <updated>2019-01-15T12:32:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><strong>项目风险管理</strong> 包括规划风险管理、识别风险、开展风险分析、规划风险应对、实施风险应对和监督风险各个过程。</p>
+<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p><code>提高</code> <strong>正面风险</strong> 的概率或影响</p>
+<p><code>降低</code> <strong>负面风险</strong> 的概率或影响</p>
+<p><code>提高</code> <strong>项目成功</strong> 的可能性</p>
+<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p><strong>1、由于项目的具有不同复杂程度的独特性工作，风险自然存在</strong></p>
+<p><strong>2、旨在识别和管理未被其他项目管理过程所管理的风险</strong></p>
+<p><strong>3、每个项目都存在两个层面的风险</strong></p>
+<ul>
+<li><p><strong>a、单个项目风险</strong> 针对一个或多个项目目标产生正面或负面的不确定事件或条件</p>
+</li>
+<li><p><strong>b、整体项目风险</strong> 是不确定性对整体项目的风险，是相关方面临的项目结果正面和负面变异区间。它源于包括单个风险在内的所有不确定性。</p>
+</li>
+</ul>
+<p><strong>4、旨在利用或强化正面风险（机会），避免或减轻负面风险（威胁）</strong></p>
+<p><strong>5、整体项目风险旨在控制风险，最大化事项整体目标概率，把项目<code>风险敞口</code>保持在可接受范围内</strong></p>
+<p><strong>6、项目风险管理过程应该不断迭代开展，因为风险会在项目生命周期内持续发生</strong></p>
+<p><strong>7、<code>风险临界值</code> 反映了组织与项目相关方的风险偏好程度，是项目目标的可接受的变异程度</strong></p>
+<h2 id="趋势"><a href="#趋势" class="headerlink" title="趋势"></a>趋势</h2><p><strong>一、非事件类风险</strong></p>
+<blockquote>
+<p>可能发生或不发生的不确定性未来事件的风险</p>
+</blockquote>
+<ul>
+<li><p><strong>变异性风险</strong> 已规划的事项、活动等某些关键方面存在不确定性，就导致变异性风险</p>
+<ul>
+<li>利用 <code>蒙特卡洛分析</code> ，即用概率分布表示变异区间，采取行动缩小可能结果区间</li>
+</ul>
+</li>
+<li><p><strong>模糊性风险</strong> 对未来可能发生，存在不确定性</p>
+<ul>
+<li><p>利用 <code>外部专家建议</code> 或 <code>标杆对照</code> 来填补差距</p>
+</li>
+<li><p>增量开发、原型搭建或模拟</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>二、项目韧性</strong></p>
+<blockquote>
+<p>要对突发性风险，保留应急预算和时间。留有项目韧性</p>
+</blockquote>
+<p><strong>三、整合式风险管理</strong></p>
+<h2 id="裁剪"><a href="#裁剪" class="headerlink" title="裁剪"></a>裁剪</h2><p><strong>1、项目规模</strong></p>
+<p><strong>2、项目复杂度</strong></p>
+<p><strong>3、项目重要性</strong></p>
+<p><strong>4、开发方法</strong></p>
+<h2 id="子过程"><a href="#子过程" class="headerlink" title="子过程"></a>子过程</h2><p><strong>11.1 规划风险管理  <code>规划</code></strong></p>
+<p><strong>11.2 识别风险  <code>规划</code></strong></p>
+<p><strong>11.3 实施定性风险分析 <code>规划</code></strong></p>
+<p><strong>11.4 实施定量风险分析 <code>规划</code></strong></p>
+<p><strong>11.5 规划风险应对 <code>规划</code></strong></p>
+<p><strong>11.6 实施风险应对 <code>执行</code></strong></p>
+<p><strong>11.7 监督风险 <code>监控</code></strong></p>
+<p><img src="http://inner.imoxiu.cn/apidoc/imageUpload/a/d/a85576e06c982d9c6379379946d9ffe0558dc89d.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;项目风险管理&lt;/strong&gt; 包括规划风险管理、识别风险、开展风险分析、规划风险应对、实施风险应对和监督风险各个过程。&lt;/
+    
+    </summary>
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/categories/PMP/"/>
+    
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/tags/PMP/"/>
+    
+      <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="风险管理" scheme="https://zjlove0206.github.io/tags/%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>项目沟通管理</title>
+    <link href="https://zjlove0206.github.io/2019/01/11/%E7%AC%AC10%E7%AB%A0%20%E9%A1%B9%E7%9B%AE%E6%B2%9F%E9%80%9A%E7%AE%A1%E7%90%86/"/>
+    <id>https://zjlove0206.github.io/2019/01/11/第10章 项目沟通管理/</id>
+    <published>2019-01-11T12:16:52.000Z</published>
+    <updated>2019-01-15T12:32:03.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><strong>项目沟通管理</strong> 包括<code>通过开发工件</code>，以及执行用于<code>有效交换信息</code>的各种活动，来<code>确保</code>项目及其相关方的<code>信息需求得以满足</code>的各个过程。</p>
+<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p><code>制定策略</code> 确保沟通对相关方行之有效</p>
+<p><code>执行必要活动</code> 以落实沟通策略</p>
+<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p><strong>1、沟通是指有意或无意的<code>信息交换</code>。交换的信息可以是<code>想法</code>、<code>指示</code>或<code>情绪</code>。</strong></p>
+<p><strong>2、信息交换的方法包括：</strong></p>
+<ul>
+<li><p><strong>书面形式：</strong> 实物或电子形式</p>
+</li>
+<li><p><strong>口头形式：</strong> 面对面或远程形式</p>
+</li>
+<li><p><strong>正式或非正式形式：</strong> （用正式纸质或社交媒体）</p>
+</li>
+<li><p><strong>手势动作：</strong> 语调或面部表情</p>
+</li>
+<li><p><strong>媒体形式：</strong> 图片、行动，甚至只是遣词造句</p>
+</li>
+<li><p><strong>遣词造句：</strong> 表达一种想法的词语不止一个，且含义存在细微差异</p>
+</li>
+</ul>
+<p><strong>3、沟通是<code>指用各种可能的方式</code>来发送或接收信息，或者通过沟通活动（如会议或演讲），或者通过工件的方式（如email、社交媒体或文档）</strong></p>
+<p><strong>4、项目经理大部分时间（90%以上时间）都在和成员、相关方沟通，包括组织内部和外部人员。</strong></p>
+<p><strong>5、面对不同的<code>文化和组织背景</code>，不同的<code>专业水平、观点和兴趣</code>，有效的沟通是一座桥梁。</strong></p>
+<p><strong>6、沟通活动按多种维度进行分类：</strong></p>
+<blockquote>
+<p><strong>内部</strong> 、<strong>外部</strong> 、<strong>正式</strong> 、 <strong>非正式</strong> 、 <strong>层级沟通（向上、向下、横向）</strong> 、<strong>官方沟通</strong> 、 <strong>非官方沟通</strong> 、 <strong>书面与口头沟通</strong></p>
+</blockquote>
+<p><strong>7、书面沟通的5C原则：</strong></p>
+<ul>
+<li><p>正确的语法和拼写</p>
+</li>
+<li><p>简洁的表述和无多余文字</p>
+</li>
+<li><p>清晰的目的和表述（适合读者的需要）</p>
+</li>
+<li><p>连贯的逻辑思维</p>
+</li>
+<li><p>受控的语法和想法承接</p>
+<p>   <strong><em>书面沟通的5C配合使用的沟通技巧</em></strong></p>
+<ul>
+<li>积极倾听</li>
+<li>理解文化和个人差异</li>
+<li>识别、设定并管理相关方期望</li>
+<li>强化技能</li>
+</ul>
+</li>
+</ul>
+<p><strong>8、有效沟通活动和工件创建需的基本属性：</strong></p>
+<ul>
+<li><p><code>沟通目的明确</code></p>
+</li>
+<li><p><code>尽量了解沟通接收方，满足其需求及偏好</code></p>
+</li>
+<li><p><code>监督并衡量沟通的效果</code></p>
+</li>
+</ul>
+<h2 id="趋势"><a href="#趋势" class="headerlink" title="趋势"></a>趋势</h2><p><strong>1、将相关方纳入项目评审范围</strong></p>
+<p><strong>2、让相关方参加项目会议</strong></p>
+<p><strong>3、社交工具的使用日益增多</strong></p>
+<p><strong>4、多面性沟通</strong> （能够提高与不同年代和文化背景的相关方沟通的效果）</p>
+<h2 id="裁剪"><a href="#裁剪" class="headerlink" title="裁剪"></a>裁剪</h2><p><strong>1、相关方</strong> （属于组织内部、还是外部）</p>
+<p><strong>2、物理地点</strong> （是否集中办公 还是 远程办公）</p>
+<p><strong>3、沟通技术</strong></p>
+<p><strong>4、语言</strong></p>
+<p><strong>5、知识管理</strong></p>
+<h2 id="子过程"><a href="#子过程" class="headerlink" title="子过程"></a>子过程</h2><p><strong>10.1 规划沟通管理 <code>规划</code></strong></p>
+<p><strong>10.2 管理沟通 <code>执行</code></strong></p>
+<p><strong>10.3 监督沟通 <code>监控</code></strong></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/6/e/63e1d05e1630976f41fe2b61108724d345d38a7e.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;项目沟通管理&lt;/strong&gt; 包括&lt;code&gt;通过开发工件&lt;/code&gt;，以及执行用于&lt;code&gt;有效交换信息&lt;/code
+    
+    </summary>
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/categories/PMP/"/>
+    
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/tags/PMP/"/>
+    
+      <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="沟通管理" scheme="https://zjlove0206.github.io/tags/%E6%B2%9F%E9%80%9A%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>项目资源管理</title>
+    <link href="https://zjlove0206.github.io/2019/01/11/%E7%AC%AC09%E7%AB%A0%20%E9%A1%B9%E7%9B%AE%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86/"/>
+    <id>https://zjlove0206.github.io/2019/01/11/第09章 项目资源管理/</id>
+    <published>2019-01-11T12:16:47.000Z</published>
+    <updated>2019-01-15T12:31:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><strong>项目资源管理</strong> 包括<code>识别</code>、<code>获取</code>和<code>管理</code>所需资源以<code>成功完成项目</code>的各个过程，这些过程有助于确保项目经理和项目团队在正确的时间和地点使用正确的资源。</p>
+<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p><strong>获取项目成功需要的资源【识别、获取、管理】</strong></p>
+<p><strong>保证在正确的时间、地点使用正确的资源</strong></p>
+<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p><strong>1、团队资源管理相对于实物资源管理，对项目经理提出了不同的技能和能力要求。</strong></p>
+<p><strong>2、实物资源包括设备、材料、设施和基础设施，而团队资源或人员指的是人力资源。</strong></p>
+<p><strong>3、项目团队成员可能具备不同的技能，可能是全职或兼职的，可能随项目进展而增加或减少。</strong></p>
+<p><strong>4、项目经理应该留意影响团队的不同因素：</strong></p>
+{% image http://inner.imoxiu.cn/apidoc/imageUpload/6/f/616d75fbd7d2c936797d5d819c8f4d31ab7facff.png '' '' %}
+<h2 id="趋势"><a href="#趋势" class="headerlink" title="趋势"></a>趋势</h2><p><strong>资源管理方法</strong> 过去几年，由于关键资源稀缺，在某些行业中出现了一些普遍的趋势，涌现出很多关于精益管理、准时制 (JIT) 生产、Kaizen（持续改善）、全员生产维护 (TPM)、约束理论等方法的文献资料。</p>
+<p><strong>情商 (EI)</strong> 项目经理应提升内在（如自我管理和自我意识）和外在（如关系管理）能力，从而提高个人情商。研究表明，提高项目团队的情商或情绪能力可提高团队效率，还可以降低团队成员离职率。</p>
+<p><strong>自组织团队</strong> 随着敏捷方法在 IT 项目中的应用越来越普遍，自组织团队（无需集中管控运作）越来越多。对于拥有自组织团队的项目，“项目经理”（可能不称为“项目经理”）的<code>角色主要是为团队创造环境、提供支持并信任团队可以完成工作</code>。</p>
+<p><strong>虚拟团队/分布式团队</strong> 项目全球化推动了对虚拟团队的需求的增长。这些团队成员致力于同一个项目，却分布在不同的地方。而虚拟团队管理面临的挑战主要在于沟通，包括可能产生孤立感、团队成员之间难以分享知识和经验、难以跟进进度和生产率，以及可能存在时区和文化差异【加大沟通技术的使用】。</p>
+<h2 id="裁剪"><a href="#裁剪" class="headerlink" title="裁剪"></a>裁剪</h2><p><strong>多元化</strong></p>
+<p><strong>物理位置</strong></p>
+<p><strong>行业特定资源</strong></p>
+<p><strong>团队成员的获得</strong></p>
+<p><strong>团队管理</strong></p>
+<p><strong>生命周期方法</strong></p>
+<h2 id="子过程"><a href="#子过程" class="headerlink" title="子过程"></a>子过程</h2><p><strong>9.1 规划资源管理 <code>规划</code></strong></p>
+<p><strong>9.2 估算活动资源 <code>规划</code></strong></p>
+<p><strong>9.3 获取资源 <code>执行</code></strong></p>
+<p><strong>9.4 建设团队 <code>执行</code></strong></p>
+<p><strong>9.5 管理团队 <code>执行</code></strong></p>
+<p><strong>9.6 控制资源 <code>监控</code></strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;项目资源管理&lt;/strong&gt; 包括&lt;code&gt;识别&lt;/code&gt;、&lt;code&gt;获取&lt;/code&gt;和&lt;code&gt;管理&lt;/co
+    
+    </summary>
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/categories/PMP/"/>
+    
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/tags/PMP/"/>
+    
+      <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="资源管理" scheme="https://zjlove0206.github.io/tags/%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>项目质量管理</title>
+    <link href="https://zjlove0206.github.io/2019/01/11/%E7%AC%AC08%E7%AB%A0%20%E9%A1%B9%E7%9B%AE%E8%B4%A8%E9%87%8F%E7%AE%A1%E7%90%86/"/>
+    <id>https://zjlove0206.github.io/2019/01/11/第08章 项目质量管理/</id>
+    <published>2019-01-11T12:16:42.000Z</published>
+    <updated>2019-01-15T12:29:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><strong>项目质量管理</strong> 包括把组织的质量政策应用于规划、管理、控制项目和产品质量要求，以<code>满足相关方目标的各个过程</code>。</p>
+<p><strong>项目质量管理以执行组织的名义支持过程的持续改进活动。</strong></p>
+<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p><strong>1、<code>规划质量管理</code>过程关注工作需要达到的质量</strong></p>
+<p><strong>2、<code>管理质量</code>则关注管理整个项目期间的质量过程</strong></p>
+<p><strong>3、<code>控制质量</code>关注工作成果与质量要求的比较，确保结果可接受</strong></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/d/1/d755b4a2ce3d04f7c4afe2d829f318ff262d1501.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p><strong>1、质量管理需要掌握的一些概念</strong></p>
+<ul>
+<li><p><strong>等级和质量：</strong>功能多少和是否有缺陷</p>
+</li>
+<li><p><strong>预防和检查：</strong>保证过程中不出现错误和保证错误不落到客户手中</p>
+</li>
+<li><p><strong>属性抽样和变量抽样：</strong>结果为合格或不合格和在连续的量表上标明结果所处的位置表明合格的程度</p>
+</li>
+<li><p><strong>公差和控制界限：</strong>结果的可接受范围和在统计意义上稳定的过程或过程绩效的普通偏差的边界</p>
+</li>
+</ul>
+<h2 id="趋势"><a href="#趋势" class="headerlink" title="趋势"></a>趋势</h2><blockquote>
+<p>现代质量管理方法力求缩小差异，交付满足既定相关方要求的成果。项目质量管理的趋势可能包括：</p>
+</blockquote>
+<p><strong>客户满意：</strong> 了解、评估、定义和管理要求，以便满足客户的期望。“符合要求”和“适合使用”</p>
+<p><strong>持续改进：</strong>由休哈特提出并经戴明完善的“计划 — 实施 — 检查 — 行动 (PDCA)”循环是质量改进的基础。</p>
+<p><strong>管理层的责任：</strong>项目的成功需要项目团队全体成员的参与。管理层在其质量职责内，肩负着为项目提供具有足够能力的资源的相应责任。</p>
+<p><strong>与供应商的互利合作关系：</strong>组织与其供应商相互依赖。组织应着眼于长期关系而不是短期利益。</p>
+<h2 id="裁剪"><a href="#裁剪" class="headerlink" title="裁剪"></a>裁剪</h2><p><strong>政策合规与审计</strong></p>
+<p><strong>标准与法规合规性</strong></p>
+<p><strong>持续改进</strong></p>
+<p><strong>相关方参与</strong></p>
+<h2 id="子过程"><a href="#子过程" class="headerlink" title="子过程"></a>子过程</h2><p><strong>8.1 规划质量管理  <code>规划</code></strong></p>
+<p><strong>8.2 管理质量 <code>执行</code></strong></p>
+<p><strong>8.3 控制质量 <code>监控</code></strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;项目质量管理&lt;/strong&gt; 包括把组织的质量政策应用于规划、管理、控制项目和产品质量要求，以&lt;code&gt;满足相关方目标的
+    
+    </summary>
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/categories/PMP/"/>
+    
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/tags/PMP/"/>
+    
+      <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="质量管理" scheme="https://zjlove0206.github.io/tags/%E8%B4%A8%E9%87%8F%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>项目成本管理</title>
+    <link href="https://zjlove0206.github.io/2019/01/11/%E7%AC%AC07%E7%AB%A0%20%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
+    <id>https://zjlove0206.github.io/2019/01/11/第07章 项目成本管理/</id>
+    <published>2019-01-11T12:16:36.000Z</published>
+    <updated>2019-01-15T12:26:43.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><strong>项目成本管理</strong> 包括为使项目在批准的预算内完成而对成本进行规划、估算、预算、融资、筹资、管理和控制的各个过程，从而<strong><code>确保项目在批准的预算内完工</code></strong>。</p>
+<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p><strong>确保项目在批准的预算内完成工作，提前对成本进行规划、估算、预算和控制的过程。</strong></p>
+<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p><strong>虽然在项目成本管理的定义中增加了融资和筹资的工作，但是实际在项目工作中这些工作很难由项目团队完成，可以理解为项目的资金的来源可以来自于融资和筹资，但是实际应该由发起人来解决。</strong></p>
+<h2 id="趋势"><a href="#趋势" class="headerlink" title="趋势"></a>趋势</h2><p><strong>1、在项目成本管理的实践中，通过对<code>挣值管理 (EVM)的扩展</code>，引入<code>挣得进度 (ES)</code>这一概念。</strong></p>
+<p><strong>2、ES 是 EVM 理论和实践的延伸。</strong></p>
+<p><strong>3、挣得进度理论用 ES 和实际时间 (AT) 替代了传统 EVM 所使用的进度偏差测量指标（挣值 – 计划价值），使用这种替代方法计算进度偏差 ES - AT，如果挣得进度大于 0，则表示项目进度提前了</strong>；</p>
+<p><strong>4、换句话说，在某个给定的时间点，项目的挣值大于计划价值。使用挣得进度测量指标的进度绩效指数 (SPI) 为 ES 与 AT 之比，表示完成项目的工作效率。此外，挣得进度理论通过挣得进度、实际时间和估算持续时间，提供了预测项目完成日期的计算公式。</strong></p>
+<h2 id="裁剪"><a href="#裁剪" class="headerlink" title="裁剪"></a>裁剪</h2><ul>
+<li><p><strong>知识管理</strong></p>
+</li>
+<li><p><strong>估算和预算</strong></p>
+</li>
+<li><p><strong>挣值管理</strong></p>
+</li>
+<li><p><strong>敏捷方法的使用</strong></p>
+</li>
+<li><p><strong>治理</strong></p>
+</li>
+</ul>
+<h2 id="子过程"><a href="#子过程" class="headerlink" title="子过程"></a>子过程</h2><p><strong>7.1 规划成本管理  <code>规划</code></strong></p>
+<p><strong>7.2 估算成本 <code>规划</code></strong></p>
+<p><strong>7.3 制定预算 <code>规划</code></strong></p>
+<p><strong>7.4 控制成本 <code>监控</code></strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;项目成本管理&lt;/strong&gt; 包括为使项目在批准的预算内完成而对成本进行规划、估算、预算、融资、筹资、管理和控制的各个过程
     
     </summary>
     
       <category term="pmp" scheme="https://zjlove0206.github.io/categories/pmp/"/>
     
     
+      <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
       <category term="pmp" scheme="https://zjlove0206.github.io/tags/pmp/"/>
     
+      <category term="成本管理" scheme="https://zjlove0206.github.io/tags/%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>项目进度管理</title>
+    <link href="https://zjlove0206.github.io/2019/01/11/%E7%AC%AC06%E7%AB%A0%20%E9%A1%B9%E7%9B%AE%E8%BF%9B%E5%BA%A6%E7%AE%A1%E7%90%86/"/>
+    <id>https://zjlove0206.github.io/2019/01/11/第06章 项目进度管理/</id>
+    <published>2019-01-11T12:16:32.000Z</published>
+    <updated>2019-01-15T12:29:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><strong>项目进度管理</strong> 包括为管理项目<strong><code>按时完成</code></strong>所需的各个过程。</p>
+<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p><strong>1、管理项目按时完成，并持续关注进度如有问题及时变更。</strong></p>
+<p><strong>2、简单说就是在项目章程指定的时间内完成项目交付可交付成果。</strong></p>
+<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p><strong><code>项目进度计划</code>提供详尽的计划，说明项目如何以及何时交付项目范围中定义的产品、服务或成果，是一种沟通和管理相关方期望的工具，为绩效报告提供依据。</strong></p>
+<ul>
+<li><p><strong>1、规定如何及何时交付</strong></p>
+</li>
+<li><p><strong>2、沟通和管理相关方期望的工具</strong></p>
+</li>
+<li><p><strong>3、为绩效报告提供依据</strong></p>
+</li>
+</ul>
+<p><strong>进度规划工作概述示例：</strong></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/5/a/57223a19ee63adf8c05c2a83912e82c0162f767a.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<h2 id="趋势"><a href="#趋势" class="headerlink" title="趋势"></a>趋势</h2><p><strong>关于项目进度计划方法的新兴实践包括：</strong></p>
+<ul>
+<li><p><strong>1、<code>具有未完项的迭代型进度计划</code></strong></p>
+<ul>
+<li><p><strong>基于适用型生命期周期的滚动式规划</strong></p>
+</li>
+<li><p><strong>适用于：向客户交付增量价值 &amp; 多个团队并行开发大量内部关联较小的功能</strong></p>
+</li>
+<li><p><strong>允许在整个开发生命周期期间进行变更</strong></p>
+</li>
+</ul>
+</li>
+<li><p><strong>2、<code>按需进度计划</code></strong></p>
+<ul>
+<li><p><strong>基于制约理论和来自精益生产的拉动式进度计划概念，根据团队交付能力来限制团队正在开展的工作</strong></p>
+</li>
+<li><p><strong>依赖于：资源可用性。<code>应用于产品在运营和维护的环境下</code></strong></p>
+</li>
+<li><p><strong>适用于：运营或持续环境中以增量方式研发的产品 &amp; 可以按规模和范围进行组合的工作</strong></p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="裁剪"><a href="#裁剪" class="headerlink" title="裁剪"></a>裁剪</h2><ul>
+<li><p><strong>生命周期方法</strong></p>
+</li>
+<li><p><strong>资源可用性</strong></p>
+</li>
+<li><p><strong>项目维度</strong></p>
+</li>
+<li><p><strong>技术支持</strong></p>
+</li>
+</ul>
+<h2 id="子过程"><a href="#子过程" class="headerlink" title="子过程"></a>子过程</h2><p><strong>6.1 规划进度管理 <code>规划</code></strong></p>
+<p><strong>6.2 定义活动 <code>规划</code></strong></p>
+<p><strong>6.3 排列活动优先级 <code>规划</code></strong></p>
+<p><strong>6.4 估算活动持续时间 <code>规划</code></strong></p>
+<p><strong>6.5 制定进度计划 <code>规划</code></strong></p>
+<p><strong>6.6 控制进度 <code>监控</code></strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;项目进度管理&lt;/strong&gt; 包括为管理项目&lt;strong&gt;&lt;code&gt;按时完成&lt;/code&gt;&lt;/strong&gt;所需的各个
+    
+    </summary>
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/categories/PMP/"/>
+    
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/tags/PMP/"/>
+    
       <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="进度管理" scheme="https://zjlove0206.github.io/tags/%E8%BF%9B%E5%BA%A6%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>项目范围管理</title>
+    <link href="https://zjlove0206.github.io/2019/01/11/%E7%AC%AC05%E7%AB%A0%20%E9%A1%B9%E7%9B%AE%E8%8C%83%E5%9B%B4%E7%AE%A1%E7%90%86/"/>
+    <id>https://zjlove0206.github.io/2019/01/11/第05章 项目范围管理/</id>
+    <published>2019-01-11T12:16:26.000Z</published>
+    <updated>2019-01-15T12:29:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><strong>项目范围管理</strong> 包括确保项目<strong><code>做且只做</code></strong>所需的全部工作，以成功完成项目的各个过程。</p>
+<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p><strong>1、管理项目范围</strong> 主要在于<strong><code>定义和控制</code></strong>哪些工作应该包括在项目内，哪些不应该包括在项目</p>
+<p><strong>2、项目范围管理称为项目的龙头，只有确定了范围，才可以去确定时间和成本</strong></p>
+<p><strong>3、项目管理三要素：范围、时间、成本</strong></p>
+<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p><strong>项目范围管理，范围包括：</strong></p>
+<ul>
+<li><p><strong>1、产品范围</strong> —— 产品具有的特征和功能。</p>
+</li>
+<li><p><strong>2、项目范围</strong> —— 为完成产品的特征和功能所需工作。有时可包含产品范围。</p>
+</li>
+</ul>
+<p>-<strong> 注：因为不确定产品功能，也无法确定所需工作</strong></p>
+<h2 id="趋势"><a href="#趋势" class="headerlink" title="趋势"></a>趋势</h2><p><strong>项目范围管理的趋势注重于商业分析专业人士的合作，目的：</strong></p>
+<ul>
+<li><p><strong>1、确认问题并识别商业需要</strong></p>
+</li>
+<li><p><strong>2、识别并推荐满足需要的可行性方案</strong></p>
+</li>
+<li><p><strong>3、收集、记录并管理相关方需求，以满足商业和项目目标</strong></p>
+</li>
+<li><p><strong>4、推动项目成果的成功应用</strong></p>
+</li>
+</ul>
+<h2 id="裁剪"><a href="#裁剪" class="headerlink" title="裁剪"></a>裁剪</h2><p><strong>1、知识和需求管理</strong></p>
+<p><strong>2、确认和控制</strong></p>
+<p><strong>3、开发方法</strong></p>
+<p><strong>4、需求的稳定性</strong></p>
+<p><strong>5、治理</strong></p>
+<h2 id="子过程"><a href="#子过程" class="headerlink" title="子过程"></a>子过程</h2><p><strong>5.1 规划范围管理 <code>规划</code></strong></p>
+<p><strong>5.2 收集需求 <code>规划</code></strong></p>
+<p><strong>5.3 定义范围 <code>规划</code></strong></p>
+<p><strong>5.4 创建WBS <code>规划</code></strong></p>
+<p><strong>5.5 确认范围 <code>监控</code></strong></p>
+<p><strong>5.6 控制范围 <code>监控</code></strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;项目范围管理&lt;/strong&gt; 包括确保项目&lt;strong&gt;&lt;code&gt;做且只做&lt;/code&gt;&lt;/strong&gt;所需的全部工
+    
+    </summary>
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/categories/PMP/"/>
+    
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/tags/PMP/"/>
+    
+      <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="范围管理" scheme="https://zjlove0206.github.io/tags/%E8%8C%83%E5%9B%B4%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>项目整合管理</title>
+    <link href="https://zjlove0206.github.io/2019/01/11/%E7%AC%AC04%E7%AB%A0%20%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88%E7%AE%A1%E7%90%86/"/>
+    <id>https://zjlove0206.github.io/2019/01/11/第04章 项目整合管理/</id>
+    <published>2019-01-11T12:16:21.000Z</published>
+    <updated>2019-01-15T12:29:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>素材来源：</strong> PMBOK P69-P74</p>
+<hr>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><strong>项目整合管理</strong> 包括对隶属于项目管理过程组的各种过程和项目管理活动进行识别、定义、组合、统一和协调的各个过程。</p>
+<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p><strong>整合兼具</strong> 统一、合并、沟通和建立联系的性质，这些行动应该贯穿项目始终。</p>
+<h2 id="含括"><a href="#含括" class="headerlink" title="含括"></a>含括</h2><p><strong>项目整合管理含括内容：</strong></p>
+<ul>
+<li>资源分配</li>
+<li>平衡竞争性需求【战略层面】</li>
+<li>研究各种备选方案【backup】</li>
+<li>为实现项目目标而裁剪的过程【挑选适宜的步骤】</li>
+<li>管理各个项目管理知识领域之间的依赖关系【贯穿始终，统一协调】</li>
+</ul>
+<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p><strong>1、项目整合管理<code>由项目经理负责</code></strong></p>
+<ul>
+<li>项目整合管理的责任不能被授权或转移</li>
+<li>只能由项目经理负责整合所有其他领域的成果，并掌握总体情况</li>
+<li>项目经理必须对整个项目承担最终责任</li>
+<li>适应型的管理环境中项目经理的期望保持不变<ul>
+<li>具体产品的规划和交付授权给团队来控制</li>
+<li>核心关注在于营造一个合作型的决策氛围【<code>并确定团队有能力应对变更</code>】</li>
+</ul>
+</li>
+</ul>
+<p><strong>2、项目和项目管理本质上<code>具有整合性质</code></strong></p>
+<p><strong>3、项目管理过程组的各个过程之间<code>经常反复发生联系</code></strong></p>
+<ul>
+<li>规划过程组提供管理计划，执行过程组可能会有变更，然后监控变更在更新</li>
+</ul>
+<p><strong>4、<code>项目越复杂</code>，相关方的<code>期望越多样化</code>，就需要<code>越全面的整合方法</code></strong></p>
+<h2 id="趋势"><a href="#趋势" class="headerlink" title="趋势"></a>趋势</h2><p><em><code>项目整合管理的发展趋势和新兴实践</code></em></p>
+<p><strong>1、使用自动化工具【<code>PMIS 项目管理信息系统</code>】</strong></p>
+<p><strong>2、使用可视化管理工具</strong></p>
+<p><strong>3、项目知识管理</strong></p>
+<p><strong>4、增加项目经理职责</strong> 【项目经理要要求介入启动和结束项目】</p>
+<p><strong>5、混合型方法</strong> 【敏捷 迭代】</p>
+<h2 id="裁剪"><a href="#裁剪" class="headerlink" title="裁剪"></a>裁剪</h2><p><em><code>由于每个项目都是独特的，所以项目经理可能需要裁剪项目整合管理过程。</code></em></p>
+<p><strong>裁剪的因素包括【但不限于】：</strong></p>
+<ul>
+<li>1、项目生命周期</li>
+<li>2、开发生命周期</li>
+<li>3、管理方法</li>
+<li>4、知识管理</li>
+<li>5、变更</li>
+<li>6、治理</li>
+<li>7、经验教训</li>
+<li>8、效益</li>
+</ul>
+<h2 id="子过程"><a href="#子过程" class="headerlink" title="子过程"></a>子过程</h2><p><strong>4.1 制定项目章程 <code>启动</code></strong></p>
+<p><strong>4.2 制定项目管理计划 <code>规划</code></strong></p>
+<p><strong>4.3 指导与管理项目工作 <code>执行</code></strong></p>
+<p><strong>4.4 管理项目知识 <code>执行</code></strong></p>
+<p><strong>4.5 监控项目工作 <code>监控</code></strong></p>
+<p><strong>4.6 实施整体变更控制 <code>监控</code></strong></p>
+<p><strong>4.7 结束项目或阶段 <code>收尾</code></strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;素材来源：&lt;/strong&gt; PMBOK P69-P74&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;项目整合管理&lt;/stron
+    
+    </summary>
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/categories/PMP/"/>
+    
+    
+      <category term="PMP" scheme="https://zjlove0206.github.io/tags/PMP/"/>
+    
+      <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="整合管理" scheme="https://zjlove0206.github.io/tags/%E6%95%B4%E5%90%88%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PMP - 初体验</title>
+    <link href="https://zjlove0206.github.io/2019/01/11/PMP/"/>
+    <id>https://zjlove0206.github.io/2019/01/11/PMP/</id>
+    <published>2019-01-11T04:24:32.000Z</published>
+    <updated>2019-01-11T12:14:07.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="PMP-是什么？"><a href="#PMP-是什么？" class="headerlink" title="PMP 是什么？"></a>PMP 是什么？</h3><ul>
+<li><strong>PMP指的是项目管理专业人士资格认证。它是由美国项目管理协会（Project Management Institute(PMI)发起的，严格评估项目管理人员知识技能是否具有高品质的资格认证考试。</strong></li>
+</ul>
+<h3 id="学习PMP的初衷？"><a href="#学习PMP的初衷？" class="headerlink" title="学习PMP的初衷？"></a>学习PMP的初衷？</h3><ul>
+<li><p>公司内部转型PMO，从技术到项目管理 需要专业快速的搭建</p>
+</li>
+<li><p>梳理项目专业知识的同时，顺便考个认证也是蛮好的。。。哈哈哈</p>
+</li>
+<li><p>主要还是学习项目管理知识框架，能更好的应用到后面的工作中</p>
+</li>
+</ul>
+<h3 id="学习侧重点"><a href="#学习侧重点" class="headerlink" title="学习侧重点"></a>学习侧重点</h3><ul>
+<li><p>1、整体并通读一遍书并整理文档</p>
+</li>
+<li><p>2、配合练习题 刻意回忆知识点</p>
+</li>
+</ul>
+<h3 id="PMP-主要含括？"><a href="#PMP-主要含括？" class="headerlink" title="PMP 主要含括？"></a>PMP 主要含括？</h3><ul>
+<li><p><strong>五大过程组</strong></p>
+<p>   <img src="http://thyrsi.com/t6/654/1547208478x2890191655.png" alt="五大过程组"></p>
+</li>
+<li><p><strong>十大知识领域</strong></p>
+<p>   <img src="http://thyrsi.com/t6/654/1547206331x2890191853.png" alt="十大知识领域"></p>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;PMP-是什么？&quot;&gt;&lt;a href=&quot;#PMP-是什么？&quot; class=&quot;headerlink&quot; title=&quot;PMP 是什么？&quot;&gt;&lt;/a&gt;PMP 是什么？&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PMP指的是项目管理专业人士资格认证。它是由美国项目管理协会（P
+    
+    </summary>
+    
+      <category term="pmp" scheme="https://zjlove0206.github.io/categories/pmp/"/>
+    
+    
+      <category term="项目管理" scheme="https://zjlove0206.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="pmp" scheme="https://zjlove0206.github.io/tags/pmp/"/>
     
   </entry>
   
