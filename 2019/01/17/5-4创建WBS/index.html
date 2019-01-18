@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    <title>5.4 创建WBS | 每日一学 | 学而不思则罔，思而不学则殆</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="pmp,项目管理,范围管理">
+    <meta name="description" content="参考资料： PMBOK P156-P162 范围管理 - 规划过程组  定义创建工作分解结构（WBS） 是把项目可交付成果和项目工作分解成较小、更易于管理的组件的过程。 作用创建WBS的作用 为所要交付的内容提供架构。 特征1、本过程仅开展一次或仅在项目的预定义点开展 2、WBS 是对项目团队为实现项目目标、创建所需可交付成果而需要实施的全部工作范围的层级分解 3、WBS 组织并定义了项目的总范围">
+<meta name="keywords" content="pmp,项目管理,范围管理">
+<meta property="og:type" content="article">
+<meta property="og:title" content="5.4 创建WBS">
+<meta property="og:url" content="https://zjlove0206.github.io/2019/01/17/5-4创建WBS/index.html">
+<meta property="og:site_name" content="每日一学">
+<meta property="og:description" content="参考资料： PMBOK P156-P162 范围管理 - 规划过程组  定义创建工作分解结构（WBS） 是把项目可交付成果和项目工作分解成较小、更易于管理的组件的过程。 作用创建WBS的作用 为所要交付的内容提供架构。 特征1、本过程仅开展一次或仅在项目的预定义点开展 2、WBS 是对项目团队为实现项目目标、创建所需可交付成果而需要实施的全部工作范围的层级分解 3、WBS 组织并定义了项目的总范围">
+<meta property="og:image" content="http://inner.imoxiu.cn/apidoc/imageUpload/7/8/72bbaa36f641332d8845ba408274e9933abdd628.png">
+<meta property="og:image" content="http://inner.imoxiu.cn/apidoc/imageUpload/f/1/f869b5dd513efbba80d41832ebaa0f16b0ee0cd1.png">
+<meta property="og:image" content="http://inner.imoxiu.cn/apidoc/imageUpload/8/6/83953ed9cfb23f6901ba4d321c6317267df0a7d6.png">
+<meta property="og:image" content="http://inner.imoxiu.cn/apidoc/imageUpload/3/d/3ddbc29465b726d1bacea9be71cd8bdc5d2cf84d.png">
+<meta property="og:updated_time" content="2019-01-18T01:47:18.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="5.4 创建WBS">
+<meta name="twitter:description" content="参考资料： PMBOK P156-P162 范围管理 - 规划过程组  定义创建工作分解结构（WBS） 是把项目可交付成果和项目工作分解成较小、更易于管理的组件的过程。 作用创建WBS的作用 为所要交付的内容提供架构。 特征1、本过程仅开展一次或仅在项目的预定义点开展 2、WBS 是对项目团队为实现项目目标、创建所需可交付成果而需要实施的全部工作范围的层级分解 3、WBS 组织并定义了项目的总范围">
+<meta name="twitter:image" content="http://inner.imoxiu.cn/apidoc/imageUpload/7/8/72bbaa36f641332d8845ba408274e9933abdd628.png">
+    
+        <link rel="alternate" type="application/atom+xml" title="每日一学" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/avatar.jpg">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">Justin赵小贱</h5>
+          <a href="mailto:1349255792@qq.com" title="1349255792@qq.com" class="mail">1349255792@qq.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                主页
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                归档
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                标签
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-th-list"></i>
+                分类
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://github.com/zjlove0206" target="_blank" >
+                <i class="icon icon-lg icon-github"></i>
+                Github
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="http://weibo.com/zjlove0206" target="_blank" >
+                <i class="icon icon-lg icon-weibo"></i>
+                Weibo
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">5.4 创建WBS</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">5.4 创建WBS</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2019-01-17T11:25:07.000Z" itemprop="datePublished" class="page-time">
+  2019-01-17
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/pmp/">pmp</a></li></ul>
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#定义"><span class="post-toc-number">1.</span> <span class="post-toc-text">定义</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#作用"><span class="post-toc-number">2.</span> <span class="post-toc-text">作用</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#特征"><span class="post-toc-number">3.</span> <span class="post-toc-text">特征</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#ITTO"><span class="post-toc-number">4.</span> <span class="post-toc-text">ITTO</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#重点剖析"><span class="post-toc-number">5.</span> <span class="post-toc-text">重点剖析</span></a></li></ol>
+        </nav>
+    </aside>
+    
+<article id="post-5-4创建WBS"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">5.4 创建WBS</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2019-01-17 19:25:07" datetime="2019-01-17T11:25:07.000Z"  itemprop="datePublished">2019-01-17</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/pmp/">pmp</a></li></ul>
+
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+            
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <p><strong>参考资料：</strong> PMBOK P156-P162</p>
+<p><strong>范围管理 - 规划过程组</strong></p>
+<hr>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p><strong>创建工作分解结构（WBS）</strong> 是把项目可交付成果和项目工作分解成较小、更易于管理的组件的过程。</p>
+<h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p><strong>创建WBS的作用</strong> 为所要交付的内容提供架构。</p>
+<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p><strong>1、本过程仅开展一次或仅在项目的预定义点开展</strong></p>
+<p><strong>2、WBS 是对项目团队为实现项目目标、创建所需可交付成果而需要实施的全部工作范围的层级分解</strong></p>
+<p><strong>3、WBS 组织并定义了项目的总范围，代表着经批准的当前项目范围说明书中所规定的工作</strong></p>
+<h2 id="ITTO"><a href="#ITTO" class="headerlink" title="ITTO"></a>ITTO</h2><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/7/8/72bbaa36f641332d8845ba408274e9933abdd628.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://inner.imoxiu.cn/apidoc/imageUpload/f/1/f869b5dd513efbba80d41832ebaa0f16b0ee0cd1.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<p><strong>5.4.1 创建WBS：输入</strong></p>
+<ul>
+<li><p><strong>5.4.1.1 项目管理计划</strong></p>
+<ul>
+<li><strong>范围管理计划：</strong>定义了如何根据项目范围说明书创建 WBS。</li>
+</ul>
+</li>
+<li><p><strong>5.4.1.2 项目文件</strong></p>
+<ul>
+<li><p><strong>项目范围说明书：</strong>描述了需要实施的工作及不包含在项目中的工作。</p>
+</li>
+<li><p><strong>需求文件：</strong>详细描述了各种单一需求如何满足项目的业务需要。</p>
+</li>
+</ul>
+</li>
+<li><p><strong>5.4.1.3 事业环境因素</strong></p>
+</li>
+<li><p><strong>5.4.1.4 组织过程资产</strong></p>
+</li>
+</ul>
+<p><strong>5.4.2 创建WBS：工具和技术</strong></p>
+<ul>
+<li><p><strong>5.4.2.1 专家判断</strong></p>
+</li>
+<li><p><strong>5.4.2.2 分解</strong></p>
+<blockquote>
+<p>是一种把项目范围和项目可交付成果逐步划分为更小、更便于管理的组成部分的技术；工作包是 WBS 最低层的工作，可对其成本和持续时间进行估算和管理。</p>
+</blockquote>
+<ul>
+<li><p><strong>1、分解的程度取决于所需的控制程度，以实现对项目的高效管理；工作包的详细程度则因项目规模和复杂程度而异。</strong></p>
+</li>
+<li><p><strong>2、分解常见的原则：</strong></p>
+<ul>
+<li><p><strong>a、80小时原则</strong></p>
+<ul>
+<li><strong>每个工作包都要求由一个人或一个小组工作80小时完成（可以与适应型生命周期中每次迭代最短周期2-4周中的2周呼应）</strong></li>
+</ul>
+</li>
+<li><p><strong>b、100%原则</strong></p>
+<ul>
+<li><strong>子要素之和要等于母要素，不能在分解过程中增加或缺失一些工作</strong></li>
+</ul>
+</li>
+<li><p><strong>c、通常分解4-6层</strong></p>
+<ul>
+<li><strong>在创建WBS过程中，分解到工作包就认为“<code>不可再分</code>”（相对意义上的不可再分，因为后续定义活动还需要将工作包进一步分解为活动）</strong></li>
+</ul>
+</li>
+<li><p><strong>d、层次</strong></p>
+<ul>
+<li><p><strong>最顶层是项目可交付成果，第二层可以是阶段或主要可交付成果，最底层为工作包</strong></p>
+<p><img src="http://inner.imoxiu.cn/apidoc/imageUpload/8/6/83953ed9cfb23f6901ba4d321c6317267df0a7d6.png" alt=""></p>
+<ul>
+<li><p>1.0  价值管理系统是项目的可交付成果</p>
+</li>
+<li><p>1.1.1.2 组件分析是工作包</p>
+</li>
+<li><p>1.2 标准制定是规划包</p>
+</li>
+</ul>
+<p><img src="http://inner.imoxiu.cn/apidoc/imageUpload/3/d/3ddbc29465b726d1bacea9be71cd8bdc5d2cf84d.png" alt=""></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>3、滚动式规划：</strong>要在未来远期才完成的可交付成果或组件，当前可能无法分解。项目管理团队因而通常需要等待对该可交付成果或组成部分达成一致意见，才能够制定出 WBS 中的相应细节。这种技术有时称做滚动式规划。</p>
+<ul>
+<li><strong>本过程还是经常考滚动式规划，如果选项中没有滚动式规划也可以去找渐进明细性可以替代。</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>5.4.3 创建WBS：输出</strong></p>
+<ul>
+<li><p><strong>5.4.3.1 范围基准</strong></p>
+<blockquote>
+<p>是经过批准的范围说明书、WBS 和相应的 WBS 词典</p>
+</blockquote>
+<ul>
+<li><p><strong>项目范围说明书</strong></p>
+</li>
+<li><p><strong>WBS：</strong>是对项目团队为实现项目目标、创建所需可交付成果而需要实施的全部工作范围的层级分解。</p>
+</li>
+<li><p><strong>工作包：</strong>WBS 的最低层级是带有独特标识号的工作包。</p>
+</li>
+<li><p><strong>规划包：</strong>工作内容已知但详细进度活动未知的，低于控制账户的工作分解结构组件。</p>
+<ul>
+<li><strong>规划包的存在就证明了该过程需要有滚动式规划这个工具</strong></li>
+</ul>
+</li>
+<li><p><strong>WBS词典：</strong>是针对 WBS 中的每个组件，详细描述可交付成果、活动和进度信息的文件。WBS 词典对 WBS 提供支持，其中大部分信息由其他过程创建，然后在后期添加到词典中。</p>
+</li>
+</ul>
+</li>
+<li><p><strong>5.4.3.2 项目文件更新</strong></p>
+<ul>
+<li><p><strong>假设日志</strong></p>
+</li>
+<li><p><strong>需求文件</strong></p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="重点剖析"><a href="#重点剖析" class="headerlink" title="重点剖析"></a>重点剖析</h2><p><strong>1、为什么设置这个过程？</strong></p>
+<ul>
+<li><strong>项目范围说明书中虽然已经明确记录了项目和产品的项目描述，并确定了项目的准确边界。但是在做具体工作时，对于一段文字描述每个团队成员的理解并不见得是一致的，就会产生分歧甚至冲突，所以提前将需要做的工作细化并达成一致有助于后续工作的顺利开展，一定程度上减少冲突的发生。故本过程也可以看做是一次简单的团队建设。</strong></li>
+</ul>
+<p><strong>2、控制账户（CA）：是一个管理控制点，是项目团队人为设定的，方便统计并主要应用于<code>挣值管理</code></strong></p>
+<ul>
+<li><p><strong>每个控制账户拥有两个或更多工作包</strong></p>
+</li>
+<li><p><strong>每个工作包只与一个控制账户关联</strong></p>
+</li>
+<li><p><strong>每个工作包和控制账户都有唯一编码</strong></p>
+</li>
+</ul>
+
+        </div>
+
+        <blockquote class="post-copyright">
+    <div class="content">
+        
+<span class="post-time">
+    最后更新时间：<time datetime="2019-01-18T01:47:18.000Z" itemprop="dateUpdated">2019-01-18 09:47:18</time>
+</span><br>
+
+
+        
+        这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="/2019/01/17/5-4创建WBS/" target="_blank" rel="external">https://zjlove0206.github.io/2019/01/17/5-4创建WBS/</a>
+        
+    </div>
+    <footer>
+        <a href="https://zjlove0206.github.io">
+            <img src="/img/avatar.jpg" alt="Justin赵小贱">
+            Justin赵小贱
+        </a>
+    </footer>
+</blockquote>
+
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/pmp/">pmp</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/范围管理/">范围管理</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/项目管理/">项目管理</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://zjlove0206.github.io/2019/01/17/5-4创建WBS/&title=《5.4 创建WBS》 — 每日一学&pic=https://zjlove0206.github.io/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://zjlove0206.github.io/2019/01/17/5-4创建WBS/&title=《5.4 创建WBS》 — 每日一学&source=后端程序狗" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://zjlove0206.github.io/2019/01/17/5-4创建WBS/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《5.4 创建WBS》 — 每日一学&url=https://zjlove0206.github.io/2019/01/17/5-4创建WBS/&via=https://zjlove0206.github.io" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://zjlove0206.github.io/2019/01/17/5-4创建WBS/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between">
+  
+    <div class="waves-block waves-effect prev">
+      <a href="/2019/01/17/5-5确认范围/" id="post-prev" class="post-nav-link">
+        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
+        <h4 class="title">5.5 确认范围</h4>
+      </a>
+    </div>
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/2019/01/17/5-3定义范围/" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">5.3 定义范围</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+
+
+
+
+
+<section class="comments" id="comments">
+    <!-- UY BEGIN -->
+    <div id="uyan_frame"></div>
+    <script src="http://v2.uyan.cc/code/uyan.js?uid=2132978"></script>
+    <!-- UY END -->
+</section>
+
+
+
+
+
+
+
+
+
+
+</article>
+
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        谢谢大爷~
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <ul class="reward-items">
+        
+        <li>
+            <img src="/img/wechat.jpg" title="微信打赏二维码" alt="微信打赏二维码">
+            <p>微信</p>
+        </li>
+        
+
+        
+        <li>
+            <img src="/img/alipay.jpg" title="支付宝打赏二维码" alt="支付宝打赏二维码">
+            <p>支付宝</p>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        站点总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        站点总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>博客内容遵循<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享 署名 - 非商业性 - 相同方式共享 4.0 国际协议</a></span>
+        </p>
+    </div>
+    <div class="bottom">
+        <p>
+            <span>Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a></span>
+            <span>Justin赵小贱 &copy; 2017 - 2019</span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://zjlove0206.github.io/2019/01/17/5-4创建WBS/&title=《5.4 创建WBS》 — 每日一学&pic=https://zjlove0206.github.io/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://zjlove0206.github.io/2019/01/17/5-4创建WBS/&title=《5.4 创建WBS》 — 每日一学&source=后端程序狗" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://zjlove0206.github.io/2019/01/17/5-4创建WBS/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《5.4 创建WBS》 — 每日一学&url=https://zjlove0206.github.io/2019/01/17/5-4创建WBS/&via=https://zjlove0206.github.io" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://zjlove0206.github.io/2019/01/17/5-4创建WBS/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACK0lEQVR42u3azW6DQAxFYd7/panUVaUUeq4NSRmfWUURJfN1Yflv2/DZv8/5N6/fv37+ec6f2e44MmTIeCxjPz38Gc4mvxX/rgwZMgYwSOhMr3KEIVfnd5MhQ4aM82cIKb2cDBkyZPQZnMTf84GAK0OGjAcy0sLy/OokESTvuaUWlyFDxgMZ6WDgnZ9vnG/IkCHjIYw9PP2/SsM3er8MGTKWZvBmPRlP9ltsJNQGGa4MGTKWYPAhJU8Za+UuXyP75XkZMmQszUjDZUpN23Zpq06GDBkzGTyA8mFAOjbgaxwyZMiYwKglgiT5qy17FUcUMmTIGMPgIZUA0jBaS0ZlyJAxgVEbLtYyUJ4m8tGCDBkypjFqRSkpVq/dX4vbbTJkyFiIkY4nSbBOly3SICtDhowJDFIi1tr3V40KUCopQ4aMAQy+tnXVyDNdvyh2DWXIkLEEo9aC54GYl6O1wlWGDBkTGLUGfaf0TVv/ZHQqQ4aMtRm1a/F22zmGl8T8nytDhoz1GJ22Whqg+yUrGgzIkCFjACMdXt5X3MqQIUPG0fvTtn56obgorTXpZMiQsRBjD09nIaM/pDwMxDJkyFia0UnXeNDsrFyQ1TEZMmRMYKRBttPc5ysUcZEsQ4aMAYxaCZqGyH6Sh1psMmTIGMwgmDTU8rz1j/vIkCFDBt4y4425WkvugtRQhgwZj2X0i9hO+kgu/aZ2mwwZMv4lo1U6XpoUXhWyZciQsRDjC722o4lhulcPAAAAAElFTkSuQmCC" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+
+
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+<script>
+(function() {
+    var OriginTitile = document.title, titleTime;
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+            document.title = '磨磨唧唧干啥呢';
+            clearTimeout(titleTime);
+        } else {
+            document.title = '(つェ⊂)咦!又好了!';
+            titleTime = setTimeout(function() {
+                document.title = OriginTitile;
+            },2000);
+        }
+    });
+})();
+</script>
+
+
+
+</body>
+</html>
